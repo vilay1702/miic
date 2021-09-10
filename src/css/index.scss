@@ -1,0 +1,45 @@
+// ======================= Variables ========================= 
+
+$white: #ffffff;
+$pink: #ca3650;
+$blue: #1b5f64;
+$yellow: #eac720;
+$btnColor: #eac82080;
+$mont: 'Montserrat', sans-serif;
+$vogue:  'Vogue', sans-serif;
+
+// ======================= Variables End ========================= 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+textarea:focus, input:focus{
+    font-family: $mont;
+    outline: none;
+}
+
+body{
+    background: linear-gradient(to right, $blue, $pink);
+    color: $white;
+    font-family: $mont;
+}
+
+a{
+    text-decoration: none;
+    color: $white;
+}
+
+.btn{
+    padding: 0.3rem 0.5rem;
+    background-color: $btnColor;
+    border-radius: 0.3rem;
+    width: max-content;
+}
+
+.active{
+    color: $yellow;
+}

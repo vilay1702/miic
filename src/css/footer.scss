@@ -1,0 +1,54 @@
+@import "index";
+
+footer{
+    font-size: 0.5rem;
+    border-bottom: 4rem solid $yellow;
+    padding: 3rem 0rem 1rem 0rem;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+footer h4{
+    font-size: 0.8rem;
+    color: $yellow;
+}
+
+footer>div{
+    margin: 0rem 5rem;
+}
+
+footer>div>p{
+    width: 10rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+
+.socialHandles a img{
+    width: 2rem;
+    margin-top: 1rem;
+}
+
+.usefulLinks, .twitterHandle{
+    margin-top: 2rem;
+}
+
+.usefulLinks ul li{
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.twitterHandle h4{
+    margin-bottom: 1rem;
+}
+
+.twitterHandle>p{
+    border-bottom: 0.1rem solid $yellow;
+    padding: 0.2rem 0rem;
+}
+
+.twitterHandle>p>span{
+    display: block;
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
