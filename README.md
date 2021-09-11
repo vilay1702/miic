@@ -11,7 +11,7 @@
 
 ## File Structure
 > 1. All routing in __App.js__
-> 2. components, pages, css folder contains all the __components__(Header, Footer etc), __pages__(Home, About etc), and scss(index.scss, home.scss) files respectively
+> 2. __components__, __pages__, __css__ folder contains all the __components__(Header, Footer etc), __pages__(Home, About etc), and __scss__(index.scss, home.scss) files respectively
 > 3. each component and page have separate scss file linked with it
 > 4. all the global styling will be in index.scss
 > 5. **pages** and **components** folder have __index.js__ for easy import and export
