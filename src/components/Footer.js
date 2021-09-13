@@ -1,12 +1,15 @@
 import React from 'react'
 import '../css/footer.scss'
+import { Link } from 'react-router-dom'
+import { footerNav } from '../data'
+import logo from '../images/logo.png';
 
 const Footer = () => {
     return (
         <footer>
         <div class="footerAbout">
             <div class="logo">
-                <img src="./images/logo.png" alt="" />
+                <img src={logo} alt="" />
                 <h1>MIIC</h1>
             </div> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet minima voluptatum quibusdam. Hic vero deleniti assumenda et, animi perferendis quis!</p>
@@ -20,15 +23,9 @@ const Footer = () => {
         <div class="usefulLinks">
             <h4>Useful Links</h4>
             <ul>
-                <li>About</li>
-                <li>Mentors</li>
-                <li>Incubation</li>
-                <li>Policy</li>
-                <li>Programs</li>
-                <li>Idea Centre</li>
-                <li>Ecosystem</li>
-                <li>News</li>
-                <li>Apply</li>
+                {
+                    footerNav.map(({name, link}, index)=><li key={index}><Link to={link}>{name}</Link></li>)
+                }
             </ul>
         </div>
         <div class="twitterHandle">
