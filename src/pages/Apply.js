@@ -1,12 +1,12 @@
-import React from 'react'
-import '../css/apply.scss';
+import React from "react";
+import "../css/apply.scss";
 
 const Apply = () => {
-    return (
-        <div>
-            <h1>Apply</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Apply</h1>
+    </div>
+  );
+};
 
-export default Apply
+export default Apply;

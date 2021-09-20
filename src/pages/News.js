@@ -1,12 +1,12 @@
-import React from 'react'
-import '../css/news.scss';
+import React from "react";
+import "../css/news.scss";
 
 const News = () => {
-    return (
-        <div>
-            <h1>News</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>News</h1>
+    </div>
+  );
+};
 
-export default News
+export default News;
