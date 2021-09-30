@@ -1,62 +1,62 @@
 @import "index";
 
-header{
-    min-height: 100vh;  
-    width: 100vw;
+header {
+  min-height: 90vh;
+  width: 100vw;
 }
 
-header::before{
-    position: absolute;
-    content: "";
-    background-image: url('../images/background.jpeg');
-    opacity: 0.15;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
+header::before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/background.jpeg");
+  opacity: 0.15;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-.logo img{
-    width: auto;
-    height: 5rem;
+.logo img {
+  width: auto;
+  height: 5rem;
 }
 
-.logo h1{
-    font-size: 2rem;
-    font-family: $vogue;
+.logo h1 {
+  font-size: 2rem;
+  font-family: $vogue;
 }
 
-nav{
-    width: max-content;
-    margin: 2rem auto;
-    display: flex;
-    align-items: center;
+nav {
+  width: max-content;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
 }
 
-nav ul{
-    display: flex;
-    margin-left: 5vw;
+nav ul {
+  display: flex;
+  margin-left: 5vw;
 }
 
-nav ul li{
-    list-style: none;
+nav ul li {
+  list-style: none;
 }
 
-.navItems{
-    margin: 0rem 0.6rem;
-    font-size: 0.8rem;
-    font-weight: 800;
+.navItems {
+  margin: 0rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 800;
 }
 
-.navItems:hover{
-    transition: color 0.4s ease-in-out;
-    color: $yellow;
+.navItems:hover {
+  transition: color 0.4s ease-in-out;
+  color: $yellow;
 }

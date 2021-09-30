@@ -1,1 +1,96 @@
 @import "index";
+.highlightPara {
+  color: $yellow;
+  font-weight: bold;
+}
+
+.containerM {
+  box-sizing: border-box !important;
+  height: 35rem;
+  width: 100vw;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerL {
+  background-color: $white;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerL div {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block {
+  height: 8rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0rem;
+  background: linear-gradient(to right, darken($pink, 10), $blue);
+}
+
+.news {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  min-height: 45rem;
+  margin: auto;
+  background-color: $white;
+}
+
+.news > div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  background-color: $white;
+  width: 50%;
+}
+
+.news > p {
+  padding: 50px;
+  width: 50%;
+  text-align: left;
+}
+
+.red,
+.red > span,
+.red > p {
+  color: #a22b40;
+  padding: 50px;
+}
+
+.green,
+.green > h3,
+.green > span {
+  color: #1b5f64;
+}
+
+.newsCard {
+  border-radius: 100%;
+  height: 9vw;
+  width: 9vw;
+  margin: 30px;
+}
+
+.newsCard > img {
+  border-radius: 100%;
+  height: 9vw;
+  width: 9vw;
+  padding: 2%;
+}

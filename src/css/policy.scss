@@ -1,1 +1,26 @@
 @import "index";
+
+body {
+  background: linear-gradient(
+    to right,
+    darken($blue, 10),
+    darken($pink, 10)
+  ) !important;
+}
+
+.policy {
+  text-align: center;
+}
+
+.outerDiv > h2 {
+  padding: 1em;
+  background: linear-gradient(to right, lighten($blue, 10), $pink);
+}
+
+.divBody {
+  background: url("../images/image1Transparent.png");
+  padding: 1rem 5vw;
+  min-height: 500px;
+  display: grid;
+  place-items: center;
+}

@@ -1,1 +1,160 @@
 @import "index";
+@import "index";
+.highlightPara {
+  color: $yellow;
+  font-weight: bold;
+}
+
+.containerM {
+  box-sizing: border-box !important;
+  height: 35rem;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerL {
+  background-color: $white;
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer {
+  height: 60px;
+  width: 60px;
+}
+
+.block {
+  height: 8rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0rem;
+  background: linear-gradient(to right, darken($pink, 10), $blue);
+}
+
+.blank {
+  height: 50px;
+  background-color: white;
+  border: none;
+}
+
+.news {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  min-height: 45rem;
+  background-color: white;
+}
+
+.news > div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  width: 50%;
+}
+
+.news > p {
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.red,
+.red > span,
+.red > p {
+  color: #a22b40;
+  padding: 50px;
+}
+
+.green,
+.green > h3,
+.green > span {
+  color: #1b5f64;
+}
+
+.redpara {
+  color: #df1a3e;
+  padding: 12px 0px 12px 10px;
+  font-style: bold;
+}
+
+.newsCard {
+  border-radius: 100%;
+  height: 9vw;
+  width: 9vw;
+}
+
+.newsCard > img {
+  border-radius: 100%;
+  height: 9vw;
+  width: 9vw;
+}
+
+.containerT {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: white;
+}
+
+ol li {
+  list-style-type: none;
+  color: $white;
+  padding: 18%;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.yellow {
+  color: yellow;
+  font-style: bold;
+}
+
+.paragraph {
+  color: $blue;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 5% 28% 5% 28%;
+}
+
+.paragraph {
+  background-color: $white;
+  width: 100%;
+  align-items: center;
+}
+
+.imageContainer {
+  background-image: url("../images/image1.jpeg");
+  align-items: center;
+  opacity: 0.1;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.btn {
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  padding: 25px;
+}
+
+.applyButton {
+  margin: auto;
+  padding: auto;
+}
