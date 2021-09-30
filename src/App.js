@@ -18,16 +18,15 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/aboutus" component={AboutUs} />
-          <Route path="/apply" component={Apply} />
-          <Route path="/login" component={Login} />
-          <Route path="/incubation" component={Incubation} />
-          <Route path="/mentors" component={Mentors} />
-          <Route path="/news" component={News} />
-          <Route path="/policy" component={Policy} />
-          <Route path="/programs" component={Programs} />
-          <Route path="/programs" component={Programs} />
+          <Route exact path="/miic" component={Home} />
+          <Route path="/miic/aboutus" component={AboutUs} />
+          <Route path="/miic/apply" component={Apply} />
+          <Route path="/miic/login" component={Login} />
+          <Route path="/miic/incubation" component={Incubation} />
+          <Route path="/miic/mentors" component={Mentors} />
+          <Route path="/miic/news" component={News} />
+          <Route path="/miic/policy" component={Policy} />
+          <Route path="/miic/programs" component={Programs} />
           <Route path="*" component={Login} />
         </Switch>
         <Footer />
