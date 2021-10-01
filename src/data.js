@@ -1,39 +1,39 @@
 export const navContents = [
   {
     name: "Home",
-    link: "/",
+    link: "/miic/",
   },
   {
     name: "About Us",
-    link: "/aboutus",
+    link: "/miic/aboutus",
   },
   {
     name: "Mentors",
-    link: "/mentors",
+    link: "/miic/mentors",
   },
   {
     name: "Incubation",
-    link: "/incubation",
+    link: "/miic/incubation",
   },
   {
     name: "Programs",
-    link: "/programs",
+    link: "/miic/programs",
   },
   {
     name: "Ecosystem",
-    link: "/ecosystem",
+    link: "/miic/ecosystem",
   },
   {
     name: "Idea Factory",
-    link: "/ideafactory",
+    link: "/miic/ideafactory",
   },
   {
     name: "Login",
-    link: "/login",
+    link: "/miic/login",
   },
   {
     name: "Apply",
-    link: "/apply",
+    link: "/miic/apply",
   },
 ];
 
