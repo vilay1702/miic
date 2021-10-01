@@ -60,3 +60,11 @@ nav ul li {
   transition: color 0.4s ease-in-out;
   color: $yellow;
 }
+
+.carousel {
+  text-align: center;
+  width: 90vw;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 5em;
+}

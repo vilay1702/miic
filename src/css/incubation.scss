@@ -84,10 +84,16 @@
   color: #1b5f64;
 }
 
+.red > p,
+.green > p {
+  text-align: center !important;
+}
+
 .redpara {
   color: #df1a3e;
   padding: 12px 0px 12px 10px;
   font-style: bold;
+  text-align: justify;
 }
 
 .newsCard {

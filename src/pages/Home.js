@@ -111,7 +111,7 @@ const Home = () => {
           </a>
         </div>
       </section>
-      <section class="news">
+      <section class="homeNews">
         <h1>News</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -123,7 +123,7 @@ const Home = () => {
             .fill()
             .map(() => {
               return (
-                <div class="newsCard">
+                <div class="homeNewsCard">
                   <img src={newsBackground} alt="" />
                   <div>
                     <h3>News</h3>

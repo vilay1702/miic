@@ -123,7 +123,7 @@
   margin-bottom: 1rem;
 }
 
-.news {
+.homeNews {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -134,16 +134,16 @@
   padding: 1rem 0rem;
 }
 
-.news h1 {
+.homeNews h1 {
   color: $yellow;
 }
 
-.news p {
+.homeNews p {
   /* margin: 1rem 0rem; */
   width: 40rem;
 }
 
-.news > div {
+.homeNews > div {
   width: 60vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -151,12 +151,12 @@
   gap: 1rem;
 }
 
-.newsCard {
+.homeNewsCard {
   height: 15vw;
   background-color: $white;
 }
 
-.newsCard > img {
+.homeNewsCard > img {
   width: 100%;
   clip-path: polygon(
     0 0,
@@ -170,7 +170,7 @@
   height: 11vw;
 }
 
-.newsCard > div {
+.homeNewsCard > div {
   height: 4vw;
   overflow-y: hidden;
   color: $pink;
