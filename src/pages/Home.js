@@ -16,12 +16,11 @@ const Home = () => {
           </div>
           <div class="cardContainer">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              quidem animi rem, tenetur impedit, a ab ipsum architecto amet, non
-              saepe quod recusandae nostrum! Voluptas reprehenderit quod
-              eligendi sed dolorem laboriosam nihil eveniet dolores optio
-              architecto labore cupiditate veniam, atque deleniti, debitis rerum
-              ipsum provident temporibus eaque accusantium placeat et.
+              Medi-Caps Innovation and Incubation Center (MIIC) enables
+              start-ups for a successful exit from the incubator by assisting in
+              external fund-raising, custom acquisition, etc. Leverage R&D
+              infrastructure to create technology and innovation-based start-up
+              companies.
             </p>
             <p class="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -50,10 +49,8 @@ const Home = () => {
         <div class="partnerInfo">
           <h2>Our partners</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-            praesentium laboriosam ducimus, impedit quo vitae nihil repellat id
-            enim veritatis laudantium porro neque nostrum cupiditate quibusdam
-            adipisci eveniet quia error.
+            Our people share their insights on implementing your innovative idea
+            to the real world.
           </p>
         </div>
       </section>
@@ -160,13 +157,9 @@ const Home = () => {
         </div>
         <div class="cardContainer cardContainerReverse">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-            quisquam voluptas aliquid architecto sequi minima rem asperiores
-            pariatur ad adipisci illum illo, quas, harum dolorum dolores
-            officiis iusto numquam eligendi veniam unde perspiciatis! At,
-            consequuntur! Cupiditate facilis, repellat, amet veritatis dolore
-            ipsa commodi corrupti deleniti explicabo fugiat, accusantium sunt
-            quis?
+            For any ideas, innovations or queries, feel free to contact us. We'd
+            love to connect with you and help you mould your ideas into
+            successful products.
           </p>
           <button type="submit" class="btn" id="submitInquiry">
             Submit

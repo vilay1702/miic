@@ -32,12 +32,13 @@ const Header = () => {
       <div class="carousel">
         <h2>MIIC</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quis
-          ipsum, velit reiciendis provident cum quas voluptatibus totam maiores
-          illum neque vel facilis, fuga voluptates ab porro ut sed labore? Vitae
-          quo quos ex quibusdam fugit velit eius suscipit. Ad possimus quis
-          quisquam repellat laudantium ipsam deleniti exercitationem, hic
-          numquam.
+          MIIC provides an interactive and safe environment for learning and
+          experimenting. A broad network of educators, angel investors and legal
+          workers help in easing the process and help Incubatees to focus on
+          ideas and work towards its further development. A great pool of
+          knowledge to access and a bunch of resources to utilize. We work on
+          building a link with business eco-system for a more creative
+          result-driven outcome.
         </p>
       </div>
     </header>

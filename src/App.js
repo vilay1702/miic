@@ -1,4 +1,4 @@
-import { Header, Footer } from "./components";
+import { Header, Footer, ToTop } from "./components";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import {
   AboutUs,
@@ -27,8 +27,9 @@ function App() {
           <Route path="/miic/news" component={News} />
           <Route path="/miic/policy" component={Policy} />
           <Route path="/miic/programs" component={Programs} />
-          <Route path="*" component={Login} />
+          <Route path="*" component={Home} />
         </Switch>
+        {/* <ToTop /> */}
         <Footer />
       </Router>
     </>

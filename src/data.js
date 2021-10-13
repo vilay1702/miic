@@ -1,4 +1,4 @@
-export const navContents = [
+const navContents = [
   {
     name: "Home",
     link: "/miic/",
@@ -37,7 +37,7 @@ export const navContents = [
   },
 ];
 
-export const footerNav = [
+const footerNav = [
   {
     name: "About Us",
     link: "/aboutus",
@@ -71,3 +71,5 @@ export const footerNav = [
     link: "/apply",
   },
 ];
+
+export { navContents };

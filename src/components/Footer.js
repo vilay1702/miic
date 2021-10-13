@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/footer.scss";
 import { Link } from "react-router-dom";
-import { footerNav } from "../data";
+import { navContents } from "../data";
 import logo from "../images/logo.png";
 
 const Footer = () => {
@@ -35,7 +35,7 @@ const Footer = () => {
       <div class="usefulLinks">
         <h4>Useful Links</h4>
         <ul>
-          {footerNav.map(({ name, link }, index) => (
+          {navContents.map(({ name, link }, index) => (
             <li key={index}>
               <Link to={link}>{name}</Link>
             </li>
