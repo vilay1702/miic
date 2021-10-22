@@ -208,3 +208,10 @@
   font-weight: bold;
   border: 0rem solid transparent;
 }
+
+@media only screen and (max-width: 600px) {
+  .containerL,
+  .containerL div {
+    flex-direction: column;
+  }
+}

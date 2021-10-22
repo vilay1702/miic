@@ -3,6 +3,10 @@ import "../css/footer.scss";
 import { Link } from "react-router-dom";
 import { navContents } from "../data";
 import logo from "../images/logo.png";
+import InstagramLogo from "../images/instagram.png";
+import LinkedinLogo from "../images/linkedin.png";
+import FacebookLogo from "../images/facebook.png";
+import TwitterLogo from "../images/twitter.png";
 
 const Footer = () => {
   return (
@@ -13,22 +17,23 @@ const Footer = () => {
           <h1>MIIC</h1>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-          minima voluptatum quibusdam. Hic vero deleniti assumenda et, animi
-          perferendis quis!
+          MIIC provides an interactive and safe environment for learning and
+          experimenting. A broad network of educators, angel investors and legal
+          workers help in easing the process and help Incubatees to focus on
+          ideas and work towards its further development
         </p>
         <div class="socialHandles">
           <a href="#">
-            <img src="images/instagram.png" alt="" />
+            <img src={InstagramLogo} alt="" />
           </a>
           <a href="#">
-            <img src="images/linkedin.png" alt="" />
+            <img src={LinkedinLogo} alt="" />
           </a>
           <a href="#">
-            <img src="images/facebook.png" alt="" />
+            <img src={FacebookLogo} alt="" />
           </a>
           <a href="#">
-            <img src="images/twitter.png" alt="" />
+            <img src={TwitterLogo} alt="" />
           </a>
         </div>
       </div>
@@ -43,16 +48,19 @@ const Footer = () => {
         </ul>
       </div>
       <div class="twitterHandle">
-        <h4>Our Twitter</h4>
+        <h4>Our LinkedIn</h4>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          molestias omnis expedita labore, est quasi?
-          <span>3 mins ago</span>
+          One Day Workshop <br />
+          on "Lean canvas" <br />
+          Lean Canvas: Capture your business model in a portable one page
+          diagram.
+          <span>October 2021</span>
         </p>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          molestias omnis expedita labore, est quasi?
-          <span>5 mins ago</span>
+          LAST DATE TO APPLY <br />
+          September 14, 2021 (Extended) <br />
+          🖥️ Hurry, get yourself registered in the form provided below
+          <span>September 2021</span>
         </p>
       </div>
     </footer>

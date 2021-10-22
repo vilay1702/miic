@@ -1,7 +1,7 @@
 @import "index";
 
 header {
-  min-height: 90vh;
+  // min-height: 100vh;
   width: 100vw;
 }
 
@@ -67,4 +67,10 @@ nav ul li {
   max-width: 500px;
   margin: auto;
   margin-top: 5em;
+}
+
+@media only screen and (max-width: 1000px) {
+  nav ul {
+    display: none;
+  }
 }
