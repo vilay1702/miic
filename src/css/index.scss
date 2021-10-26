@@ -45,3 +45,12 @@ a {
 .active {
   color: $yellow;
 }
+
+::-webkit-scrollbar {
+  background: linear-gradient(to bottom, $pink, $blue);
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $white;
+}

@@ -1,162 +1,95 @@
 @import "index";
 
-.highlightPara {
-  color: $yellow;
-  font-weight: bold;
-}
-
-.containerM {
-  box-sizing: border-box !important;
-  height: 35rem;
-  width: 100vw;
+.outer-container {
   background-color: $white;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sideContentLeft,
-.sideContentRight {
-  color: $pink;
-  font-family: var(--vogue);
-  font-size: 4rem;
-  opacity: 0.4;
-}
-
-.sideContentLeft {
-  transform: rotate(90deg) translate(10rem, 3rem);
-}
-
-.sideContentRight {
-  transform: rotate(-90deg) translate(10rem, 4.5rem);
-}
-
-.containerL {
-  background-color: $white;
-  height: 35rem;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
 }
 
-.containerL div {
-  width: 25rem;
+.inner-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: -1.5rem auto;
 }
 
-.imgContainer {
-  align-items: flex-end;
+.card-container,
+.img-container {
+  max-width: 400px;
+  width: 90%;
 }
-
-.imgContainer h2 {
-  color: $pink;
-  margin: 0rem 0.2rem;
+.img-container {
+  > h2 {
+    color: $pink;
+    font-weight: 800;
+    text-align: right;
+    padding: 0.5rem;
+  }
+  > img {
+    width: 100%;
+    object-fit: contain;
+  }
 }
-
-.imgContainer img {
-  width: 25rem;
-  height: 25rem;
-}
-
-.cardContainer {
-  width: 28rem !important;
-  text-align: justify;
-  z-index: 10;
+.card-container {
   background-color: $pink;
-  height: 37rem;
-  padding: 2rem;
+  padding: 5rem 1rem;
+  > p {
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
 }
 
-.cardContainer p {
-  margin: 1rem 0rem;
+.inner-container-reverse {
+  .img-container {
+    > h2 {
+      text-align: left;
+      color: $blue;
+    }
+    order: 2;
+  }
+  .card-container {
+    background-color: $blue;
+  }
 }
 
-.imgContainerReverse {
-  align-items: flex-start;
-  order: 2 !important;
+@media screen and (max-width: 700px) {
+  .card-container,
+  .img-container,
+  .card-container > p {
+    max-width: 700px;
+  }
+  .img-container > h2,
+  .card-container > p,
+  .inner-container-reverse .img-container h2,
+  .inner-container-reverse .card-container,
+  .inner-container .card-container {
+    text-align: center;
+  }
+  .card-container {
+    padding: 2rem;
+  }
+
+  .inner-container {
+    flex-direction: column;
+    margin: 1rem auto;
+  }
+  .inner-container-reverse {
+    .card-container {
+      order: 2;
+    }
+  }
 }
 
-.imgContainerReverse h2 {
-  color: $blue;
-}
-
-.cardContainerReverse {
-  background-color: $blue;
-  align-items: flex-end;
-}
-
-.partner {
-  height: 18rem;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem 0rem;
-}
-
-.partner div {
-  width: 30rem;
-}
-
-.brands {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2rem;
-}
-
-.brands img {
-  width: 5rem;
-  height: 5rem;
-  padding: 0.5rem;
-}
-
-.partnerInfo {
-  display: flex;
-  flex-flow: column wrap;
-  padding: 2rem;
-}
-
-.partnerInfo h2 {
-  color: $yellow;
-  margin-bottom: 1rem;
-}
-
-.homeNews {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  height: 100vh;
-  min-height: 45rem;
-  padding: 1rem 0rem;
-}
-
-.homeNews h1 {
-  color: $yellow;
-}
-
-.homeNews p {
-  /* margin: 1rem 0rem; */
-  width: 40rem;
-}
-
-.homeNews > div {
-  width: 60vw;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* margin: 1rem 0rem; */
-  gap: 1rem;
-}
-
-.homeNewsCard {
-  height: 15vw;
+.home-news-card {
+  width: 250px;
+  height: 200px;
   background-color: $white;
+  margin: 1rem;
 }
 
-.homeNewsCard > img {
+.home-news-card > img {
   width: 100%;
   clip-path: polygon(
     0 0,
@@ -167,51 +100,41 @@
     10% 100%,
     0 100%
   );
-  height: 11vw;
+  height: 130px;
 }
 
-.homeNewsCard > div {
-  height: 4vw;
-  overflow-y: hidden;
-  color: $pink;
-}
-
-#inquiryForm {
-  margin-left: 0.5rem;
+.home-news-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  color: $pink;
-}
-
-.inquiry h2 {
-  margin-bottom: 1rem;
-}
-
-#inquiryForm label {
-  margin-top: 1rem;
-  margin-bottom: 0.2rem;
-  font-weight: 800;
-}
-
-#inquiryForm input,
-#inquiryForm textarea {
-  padding: 0.5rem 0.2rem;
-  border: 0.08rem solid $blue;
-  border-radius: 0.3rem;
-  width: 25em;
-}
-
-#submitInquiry {
-  color: $white;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-  border: 0rem solid transparent;
-}
-
-@media only screen and (max-width: 600px) {
-  .containerL,
-  .containerL div {
-    flex-direction: column;
+  align-items: center;
+  > h1 {
+    color: $yellow;
+    font-weight: 900;
   }
+  > p {
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.home-news-card > div {
+  height: 70px;
+  overflow-y: hidden;
+  color: $pink;
+  border-bottom: 0.5rem solid #ffffff;
+  padding: 0.2rem 0.5rem;
+}
+
+.home-news-card > div:hover {
+  color: $white;
+  background-color: $pink;
+  border-color: $pink;
+}
+
+.home-news {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
 }
