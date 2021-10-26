@@ -116,6 +116,32 @@
 }
 
 // ======================== Partners ========================
+.home-partners {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.home-brands,
+.home-partners-info {
+  width: 90%;
+  max-width: 350px;
+}
+
+.home-partners-info {
+  padding: 0.5rem;
+  > h2 {
+    color: $yellow;
+    font-weight: 900;
+  }
+}
+
+.home-brands {
+  > img {
+    width: 50px;
+    height: 50px;
+    margin: 0.5rem;
+  }
+}
 
 // ======================== Inquiry ========================
 
@@ -126,7 +152,7 @@
 .inquiry-inner-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
 .inquiry-card-container,
@@ -201,10 +227,15 @@
       order: 2;
     }
   }
-  .inquiry-card-container {
-    order: 1;
+
+  .home-partners {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
   }
-  .inquiry-form-container {
-    padding: 0;
+  .home-partners-info {
+    border-bottom: 0.1rem solid $white;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 }

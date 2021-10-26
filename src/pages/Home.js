@@ -38,7 +38,7 @@ const Home = () => {
         </section>
       </section>
 
-      <section class="home-partner">
+      <section class="home-partners">
         <div class="home-brands">
           {Array(10)
             .fill()
@@ -46,7 +46,7 @@ const Home = () => {
               <img src={brandImg} alt={brandImg} />
             ))}
         </div>
-        <div class="home-partner-info">
+        <div class="home-partners-info">
           <h2>Our partners</h2>
           <p>
             Our people share their insights on implementing your innovative idea

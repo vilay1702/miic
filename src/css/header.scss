@@ -1,5 +1,8 @@
 @import "index";
 
+$nav-toggler-width: 50px;
+$nav-toggler-height: 7px;
+
 header {
   // min-height: 100vh;
   width: 100vw;
@@ -39,15 +42,19 @@ nav {
   margin: 2rem auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 90vw;
 }
 
 nav ul {
   display: flex;
   margin-left: 5vw;
+  transition: all 0.4s;
 }
 
 nav ul li {
   list-style: none;
+  overflow: hidden;
 }
 
 .navItems {
@@ -61,6 +68,70 @@ nav ul li {
   color: $yellow;
 }
 
+// ======================= Nav Toggler =======================
+
+#nav-toggler {
+  position: fixed;
+  right: 5rem;
+  display: none;
+  cursor: pointer;
+  z-index: 110;
+  > div {
+    width: $nav-toggler-width;
+    height: $nav-toggler-height;
+    background-color: $white;
+    border-radius: 1rem;
+    border: none;
+    transition: all 0.4s ease-in-out;
+  }
+  > div:nth-child(2) {
+    margin: $nav-toggler-height 0;
+  }
+}
+
+.nav-line-one {
+  animation: nav-line-one;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+.nav-line-two {
+  opacity: 0;
+}
+.nav-line-three {
+  animation: nav-line-three;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.toggle-nav-list {
+  height: 100vh !important;
+}
+
+@keyframes nav-line-one {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY($nav-toggler-height * 2);
+  }
+  100% {
+    transform: rotate(45deg)
+      translate($nav-toggler-height, $nav-toggler-height * 2);
+  }
+}
+@keyframes nav-line-three {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-$nav-toggler-height * 2);
+  }
+  100% {
+    transform: rotate(-45deg)
+      translate($nav-toggler-height, -$nav-toggler-height * 2);
+  }
+}
+
 .carousel {
   text-align: center;
   width: 90vw;
@@ -69,8 +140,25 @@ nav ul li {
   margin-top: 5em;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 850px) {
   nav ul {
-    display: none;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 0vh;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, $pink, $blue);
+    margin: 0;
+    > li {
+      margin: 1rem 0;
+    }
+    z-index: 100;
+  }
+  #nav-toggler {
+    display: block;
   }
 }

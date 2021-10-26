@@ -19,14 +19,14 @@ const navContents = [
     name: "Programs",
     link: "/miic/programs",
   },
-  {
-    name: "Ecosystem",
-    link: "/miic/ecosystem",
-  },
-  {
-    name: "Idea Factory",
-    link: "/miic/ideafactory",
-  },
+  // {
+  //   name: "Ecosystem",
+  //   link: "/miic/ecosystem",
+  // },
+  // {
+  //   name: "Idea Factory",
+  //   link: "/miic/ideafactory",
+  // },
   {
     name: "Login",
     link: "/miic/login",
