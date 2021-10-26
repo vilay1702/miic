@@ -40,6 +40,13 @@ a {
   background-color: $btnColor;
   border-radius: 0.3rem;
   width: max-content;
+  border: none;
+  cursor: pointer;
+  color: $white;
+}
+.btn:hover {
+  transition: all 0.4s ease-in-out;
+  background-color: darken($btnColor, 20);
 }
 
 .active {

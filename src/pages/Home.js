@@ -38,15 +38,15 @@ const Home = () => {
         </section>
       </section>
 
-      <section class="partner">
-        <div class="brands">
+      <section class="home-partner">
+        <div class="home-brands">
           {Array(10)
             .fill()
             .map(() => (
               <img src={brandImg} alt={brandImg} />
             ))}
         </div>
-        <div class="partnerInfo">
+        <div class="home-partner-info">
           <h2>Our partners</h2>
           <p>
             Our people share their insights on implementing your innovative idea
@@ -147,8 +147,18 @@ const Home = () => {
       <section className="inquiry-outer-container">
         <section className="inquiry-inner-container">
           <div className="inquiry-card-container">
+            <p>
+              For any ideas, innovations or queries, feel free to contact us.
+              We'd love to connect with you and help you mould your ideas into
+              successful products.
+            </p>
+            <button type="submit" class="btn">
+              Submit
+            </button>
+          </div>
+          <div className="inquiry-form-container">
             <h2>Inquiry</h2>
-            <form action="#" id="inquiryForm">
+            <form action="#">
               <label for="name">Your Full name</label>
               <input type="text" id="nameInput" name="name" />
               <label for="email">Your Email address</label>
@@ -161,16 +171,6 @@ const Home = () => {
                 rows="10"
               ></textarea>
             </form>
-          </div>
-          <div className="inquiry-form-container">
-            <p>
-              For any ideas, innovations or queries, feel free to contact us.
-              We'd love to connect with you and help you mould your ideas into
-              successful products.
-            </p>
-            <button type="submit" class="btn" id="submitInquiry">
-              Submit
-            </button>
           </div>
         </section>
       </section>

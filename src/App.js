@@ -30,7 +30,7 @@ function App() {
           <Route path="*" component={Home} />
         </Switch>
         {/* <ToTop /> */}
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
