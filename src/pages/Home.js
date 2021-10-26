@@ -63,11 +63,12 @@ const Home = () => {
           </div>
           <div className="card-container">
             <p>
-              Medi-Caps Innovation and Incubation Center (MIIC) enables
-              start-ups for a successful exit from the incubator by assisting in
-              external fund-raising, custom acquisition, etc. Leverage R&D
-              infrastructure to create technology and innovation-based start-up
-              companies.
+              Medi-Caps Innovation and Incubation Center (MIIC), aims to create
+              a conducive environment for nurturing entrepreneurship and to
+              provide an eco-system that fosters and supports innovation, new
+              ideas and young talents catalyzing the entrepreneurship through
+              various interventions and initiatives amongst classes and
+              communities.
             </p>
             <p class="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -92,20 +93,23 @@ const Home = () => {
           </div>
           <div className="card-container">
             <p>
-              Medi-Caps Innovation and Incubation Center (MIIC) enables
-              start-ups for a successful exit from the incubator by assisting in
-              external fund-raising, custom acquisition, etc. Leverage R&D
-              infrastructure to create technology and innovation-based start-up
-              companies.
+              Establishing profound entrepreneurs with leadership qualities and
+              capabilities of showcasing global ethical business practices for
+              the benefit of the society. Developing flexible and innovative
+              programmes and procedures that cater to a broad range of students
+              with different background and prepare them to compete at the
+              national and international levels as entrepreneurs
             </p>
             <p class="highlightPara">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Similique consequatur doloribus ex, recusandae doloremque quisquam
-              culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
-              repellat porro, quis autem distinctio fugit fuga explicabo
-              obcaecati cupiditate cum nobis libero, rem, sed rerum corporis!
-              Reiciendis ratione, hic recusandae perspiciatis inventore id
-              minima aliquam?
+              Transmitting knowledge through a well thought teaching pedagogy
+              and putting a strong emphasis on knowledge creation through
+              well-planned training programmes in emerging areas and application
+              of knowledge by undertaking issues and problems from the industry.
+              Encouraging innovators and their ideas, which lead to commercially
+              viable products and/or services and pave the path for potential
+              business ideas to convert into startup/venture and reach to the
+              market. Creating awareness among the students and help society to
+              come up with new solutions to existing problem
             </p>
             <Link to="/miic/about" class="btn">
               POLICY

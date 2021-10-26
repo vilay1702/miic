@@ -1,10 +1,10 @@
 @import "index";
 
-$nav-toggler-width: 50px;
-$nav-toggler-height: 7px;
+$nav-toggler-width: 40px;
+$nav-toggler-height: 5px;
 
 header {
-  // min-height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 
@@ -38,8 +38,7 @@ header::before {
 }
 
 nav {
-  width: max-content;
-  margin: 2rem auto;
+  margin: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,7 +71,7 @@ nav ul li {
 
 #nav-toggler {
   position: fixed;
-  right: 5rem;
+  right: 5vw;
   display: none;
   cursor: pointer;
   z-index: 110;
@@ -141,6 +140,9 @@ nav ul li {
 }
 
 @media only screen and (max-width: 850px) {
+  nav {
+    margin: 2rem 0;
+  }
   nav ul {
     position: fixed;
     display: flex;
