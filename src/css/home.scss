@@ -1,5 +1,10 @@
 @import "index";
 
+.highlightPara {
+  color: $yellow;
+  font-weight: bold;
+}
+
 // ======================== About Us ========================
 .outer-container {
   background-color: $white;
@@ -34,6 +39,7 @@
   }
 }
 .card-container {
+  min-height: 500px;
   background-color: $pink;
   padding: 5rem 1rem;
   > p {

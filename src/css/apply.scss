@@ -1,72 +1,13 @@
 @import "index";
-.highlightPara {
-  color: $yellow;
-  font-weight: bold;
-}
-
-.containerL {
-  background-color: $white;
-  height: 35rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.containerL div {
-  width: 25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.containerT {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.imgContainer {
-  align-items: flex-end;
-}
-
-.imgContainer h2 {
-  color: $pink;
-  margin: 0rem 0.2rem;
-}
-
-.imgContainer img {
-  width: 25rem;
-  height: 25rem;
-}
-
-.cardContainer {
-  width: 28rem !important;
-  text-align: justify;
-  z-index: 10;
-  background-color: $pink;
-  height: 37rem;
-  padding: 2rem;
-}
-
-.cardContainer p {
-  margin: 1rem 0rem;
-}
-
-.imgContainerReverse {
-  align-items: flex-start;
-  order: 2 !important;
-}
-
-.imgContainerReverse h2 {
-  color: $blue;
-}
-
-.cardContainerReverse {
-  background-color: $blue;
-  align-items: flex-end;
-}
+@import "home";
 
 .blank {
   height: 50px;
   background-color: white;
   border: none;
+}
+
+.apply-outer {
+  background-color: $white;
+  padding: 2rem 0;
 }

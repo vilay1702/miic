@@ -27,7 +27,7 @@ const Header = () => {
                 className={
                   name.toLowerCase() === "login" ||
                   name.toLowerCase() === "apply"
-                    ? "navItems btn"
+                    ? "navItems navItemsBtn"
                     : "navItems"
                 }
                 to={link}
