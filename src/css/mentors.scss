@@ -4,29 +4,20 @@
   font-weight: bold;
 }
 
-.containerM {
-  box-sizing: border-box !important;
-  height: 35rem;
-  width: 100vw;
-  background-color: $white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.containerL {
-  background-color: $white;
-  height: 35rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .containerL div {
   width: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.mentcont {
+  min-height: 500px;
+  padding: 5rem 1rem;
+  > p {
+    text-align: justify;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .block {
@@ -36,43 +27,24 @@
   justify-content: center;
   align-items: center;
   padding: 5rem 0rem;
-  background: linear-gradient(to right, darken($pink, 10), $blue);
 }
 
 .news {
-  display: flex;
-  text-align: center;
   align-items: center;
   justify-content: center;
-  height: 80vh;
-  min-height: 45rem;
-  margin: auto;
-  background-color: $white;
+  height: 115vh;
 }
 
-.news > div {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  justify-content: center;
-  margin: auto;
-  text-align: center;
-  background-color: $white;
-  width: 50%;
-}
-
-.news > p {
+.mentor-txt {
   padding: 50px;
   width: 50%;
-  text-align: left;
+  text-align: center;
 }
 
 .red,
 .red > span,
 .red > p {
   color: #a22b40;
-  padding: 50px;
 }
 
 .green,
@@ -92,5 +64,87 @@
   border-radius: 100%;
   height: 9vw;
   width: 9vw;
-  padding: 2%;
+}
+
+.news h1 {
+  color: $yellow;
+}
+
+.news p {
+  width: 40rem;
+  justify-content: center;
+}
+
+.news > div {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.newsCard {
+  height: 15vw;
+  background-color: $white;
+}
+
+.newsCard > img {
+  width: 100%;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    20% 100%,
+    15% 95%,
+    10% 100%,
+    0 100%
+  );
+  height: 10vw;
+}
+
+.newsCard > div {
+  height: 4vw;
+  justify-content: center;
+  color: $pink;
+}
+
+@media screen and (max-width: 700px) {
+  .mentor-txt {
+    max-width: 700px;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  }
+
+  .news {
+    height: fit-content;
+  }
+
+  .news {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+  }
+
+  .newsCard > h3 > span {
+    justify-content: center;
+    text-align: center;
+    color: $pink;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .mentor-txt {
+    max-width: 440px;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  }
+
+  .news {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+  }
 }

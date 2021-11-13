@@ -1,8 +1,7 @@
 import React from "react";
 import "../css/incubation.scss";
-// import build from "../images/build.png";
-import build from "../images/brand.png";
-import image1 from "../images/image1.jpeg";
+import { Grid } from "@material-ui/core";
+import brandImg from "../images/brand.png";
 
 const Incubation = () => {
   return (
@@ -10,23 +9,64 @@ const Incubation = () => {
       <div className="block">
         <h1>Facilities</h1>
       </div>
-
-      <section className="news red">
-        <div>
-          {Array(6)
-            .fill()
-            .map(() => {
-              return (
-                <div className="newsCard">
-                  <img src={build} alt="" />
-                  <div>
-                    <h3>Name</h3>
-                  </div>
-                </div>
-              );
-            })}
-        </div>
-        <p>
+      <section className="news green">
+        <Grid container spacing={2}>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+        <p className="mentor-txt">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
           consequuntur necessitatibus ducimus facilis amet itaque autem debitis
           dignissimos voluptatum odio! Lorem ipsum dolor sit amet consectetur
@@ -41,23 +81,64 @@ const Incubation = () => {
       <div className="block">
         <h1>Services</h1>
       </div>
-
       <section className="news green">
-        <div>
-          {Array(6)
-            .fill()
-            .map(() => {
-              return (
-                <div className="newsCard">
-                  <img src={build} alt="" />
-                  <div className="green">
-                    <h3>Name</h3>
-                  </div>
-                </div>
-              );
-            })}
-        </div>
-        <p>
+        <Grid container spacing={2}>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+        <p className="mentor-txt">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
           consequuntur necessitatibus ducimus facilis amet itaque autem debitis
           dignissimos voluptatum odio! Lorem ipsum dolor sit amet consectetur
@@ -72,22 +153,64 @@ const Incubation = () => {
       <div className="block">
         <h1>Resources</h1>
       </div>
-      <section className="news red">
-        <div>
-          {Array(6)
-            .fill()
-            .map(() => {
-              return (
-                <div className="newsCard">
-                  <img src={build} alt="" />
-                  <div>
-                    <h3>Name</h3>
-                  </div>
-                </div>
-              );
-            })}
-        </div>
-        <p>
+      <section className="news green">
+        <Grid container spacing={2}>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={4}>
+            <div className="newsCard">
+              <img src={brandImg} alt="" />
+              <div>
+                <h3>Name</h3>
+                <span>Designation</span>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+        <p className="mentor-txt">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
           consequuntur necessitatibus ducimus facilis amet itaque autem debitis
           dignissimos voluptatum odio! Lorem ipsum dolor sit amet consectetur
@@ -104,26 +227,7 @@ const Incubation = () => {
       </div>
 
       <section className="containerL">
-        <div className="imgContainer imgContainerReverse">
-          <h2>Eligibility</h2>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-        </div>
-        <div className="cardContainer cardContainerReverse">
+        <div className="cardContainer">
           <h2 class="yellow">Eligibility</h2>
           <ol>
             <li>Loremipsum</li>
@@ -133,7 +237,25 @@ const Incubation = () => {
             <li>elit</li>
           </ol>
         </div>
-        <hr className="blank"></hr>
+        <div className="imgContainer">
+          <h2 className="blue">Eligibility</h2>
+          <p className="redpara">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+          </p>
+          <p className="redpara">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+          </p>
+          <p className="redpara">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+          </p>
+          <p className="redpara">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+          </p>
+        </div>
       </section>
 
       <div className="paracontainer">

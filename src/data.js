@@ -19,6 +19,10 @@ const navContents = [
     name: "Programs",
     link: "/miic/programs",
   },
+  {
+    name: "News",
+    link: "/miic/news",
+  },
   // {
   //   name: "Ecosystem",
   //   link: "/miic/ecosystem",
