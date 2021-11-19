@@ -54,68 +54,67 @@ const News = () => {
           soluta recusandae dolorem molestias minima amet eveniet sed, debitis
           provident? Eius, molestiae! Vel.
         </p>
-        <fieldset id="mainN-2">
-          <div class="row g-0">
-            <fieldset class="primaryN">
-              <div class="col-xs-12">
-                <img id="img-w" src={recruit} alt="" />
-              </div>
-              <div id="floatN" class="col-xs-12">
-                <h2>MIIC Recruitment</h2>
-                <p>
-                  We are hiring! New recruitment for team members in various
-                  department of MIIC. Link in description. Teams you can apply
-                  for :- <span>Research and Development Team</span>{" "}
-                  <span>Marketing and Management Team</span>{" "}
-                  <span>Web Development Team</span> <span>Graphic Team</span>{" "}
-                  <span>Content Team</span>. Last date to apply{" "}
-                  <span>Wednessday, 13th October, 2021</span>
-                  Link in description. Eligility - B.Tech and MBA Programs.
-                  Showcase your skills and get non-pareil experience. Gain
-                  experience of working with startups and teams
-                </p>
-              </div>
-            </fieldset>
-            <fieldset class="primaryN">
-              <div class="col-xs-12">
-                <img id="img-w" src={recruit1} alt="" />
-              </div>
-              <div id="floatN" class="col-xs-12">
-                <h2>MIIC Recruitment - 1st year</h2>
-                <p>
-                  We are hiring! New recruitment for team members in various
-                  department of MIIC. Link in description. Teams you can apply
-                  for :- <span>Research and Development Team</span>{" "}
-                  <span>Marketing and Management Team</span>{" "}
-                  <span>Web Development Team</span> <span>Graphic Team</span>{" "}
-                  <span>Content Team</span>. Last date to apply{" "}
-                  <span>Monday, 25th October, 2021</span>
-                  Link in description. Eligility - B.Tech and MBA Programs.
-                  Showcase your skills and get non-pareil experience. Gain
-                  experience of working with startups and teams
-                </p>
-              </div>
-            </fieldset>
-            <fieldset class="primaryN">
-              <div class="col-xs-12">
-                <img id="img-w" src={ideate} alt="" />
-              </div>
-              <div id="floatN" class="col-xs-12">
-                <h2>Ideation 3.0</h2>
-                <p>
-                  {" "}
-                  Convert your ideas to big buisnnes. Get platfoirm fot
-                  implementing your ideas and bringing thr change in social and
-                  technical world. MIIC provide platform for incubating your
-                  idead and create successful startup. Top 5 ideas will be
-                  incubated.. <a href="www.google.com">Goole</a> Submit your
-                  ideas before 13th August, 2021. Researches, students and
-                  teachers all can apply. Get grant upto 15 Lakh from MSME
-                </p>
-              </div>
-            </fieldset>
+        <div className="announ-outer">
+          <div className="announ-inner">
+            <div className="announ-img">
+              <img src={recruit} alt="" />
+            </div>
+            <div className="announ-para">
+              <h2>MIIC Recruitment</h2>
+              <p>
+                We are hiring! New recruitment for team members in various
+                department of MIIC. Link in description. Teams you can apply
+                for:-
+                <span>Research and Development Team</span>{" "}
+                <span>Marketing and Management Team</span>{" "}
+                <span>Web Development Team</span> <span>Graphic Team</span>{" "}
+                <span>Content Team</span>. Last date to apply{" "}
+                <span>Wednessday, 13th October, 2021</span>
+                Link in description. Eligility - B.Tech and MBA Programs.
+                Showcase your skills and get non-pareil experience. Gain
+                experience of working with startups and teams
+              </p>
+            </div>
           </div>
-        </fieldset>
+          <div class="primaryN">
+            <div>
+              <img src={recruit1} alt="" />
+            </div>
+            <div>
+              <h2>MIIC Recruitment - 1st year</h2>
+              <p>
+                We are hiring! New recruitment for team members in various
+                department of MIIC. Link in description. Teams you can apply for
+                :- <span>Research and Development Team</span>{" "}
+                <span>Marketing and Management Team</span>{" "}
+                <span>Web Development Team</span> <span>Graphic Team</span>{" "}
+                <span>Content Team</span>. Last date to apply{" "}
+                <span>Monday, 25th October, 2021</span>
+                Link in description. Eligility - B.Tech and MBA Programs.
+                Showcase your skills and get non-pareil experience. Gain
+                experience of working with startups and teams
+              </p>
+            </div>
+          </div>
+          <div class="primaryN">
+            <div>
+              <img src={ideate} alt="" />
+            </div>
+            <div>
+              <h2>Ideation 3.0</h2>
+              <p>
+                {" "}
+                Convert your ideas to big buisnnes. Get platfoirm fot
+                implementing your ideas and bringing thr change in social and
+                technical world. MIIC provide platform for incubating your idead
+                and create successful startup. Top 5 ideas will be incubated..{" "}
+                <a href="www.google.com">Goole</a> Submit your ideas before 13th
+                August, 2021. Researches, students and teachers all can apply.
+                Get grant upto 15 Lakh from MSME
+              </p>
+            </div>
+          </div>
+        </div>
         <button type="button" class="btn btn-warning">
           Load More
         </button>
