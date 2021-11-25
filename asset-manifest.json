@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/miic/static/css/main.f39f5caf.chunk.css",
-    "main.js": "/miic/static/js/main.be797890.chunk.js",
-    "main.js.map": "/miic/static/js/main.be797890.chunk.js.map",
+    "main.css": "/miic/static/css/main.200cf01f.chunk.css",
+    "main.js": "/miic/static/js/main.e7fb533d.chunk.js",
+    "main.js.map": "/miic/static/js/main.e7fb533d.chunk.js.map",
     "runtime-main.js": "/miic/static/js/runtime-main.d09cccc8.js",
     "runtime-main.js.map": "/miic/static/js/runtime-main.d09cccc8.js.map",
     "static/js/2.d7b59052.chunk.js": "/miic/static/js/2.d7b59052.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.394bab57.chunk.js": "/miic/static/js/3.394bab57.chunk.js",
     "static/js/3.394bab57.chunk.js.map": "/miic/static/js/3.394bab57.chunk.js.map",
     "index.html": "/miic/index.html",
-    "static/css/main.f39f5caf.chunk.css.map": "/miic/static/css/main.f39f5caf.chunk.css.map",
+    "static/css/main.200cf01f.chunk.css.map": "/miic/static/css/main.200cf01f.chunk.css.map",
     "static/js/2.d7b59052.chunk.js.LICENSE.txt": "/miic/static/js/2.d7b59052.chunk.js.LICENSE.txt",
     "static/media/1.a8c5cf83.jpeg": "/miic/static/media/1.a8c5cf83.jpeg",
     "static/media/13.15179f16.jpeg": "/miic/static/media/13.15179f16.jpeg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.d09cccc8.js",
     "static/js/2.d7b59052.chunk.js",
-    "static/css/main.f39f5caf.chunk.css",
-    "static/js/main.be797890.chunk.js"
+    "static/css/main.200cf01f.chunk.css",
+    "static/js/main.e7fb533d.chunk.js"
   ]
 }
