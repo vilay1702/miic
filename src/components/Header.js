@@ -22,7 +22,10 @@ const Header = () => {
         </div>
         <ul>
           {navContents.map(({ name, link }, index) => (
-            <li key={index}>
+            <li
+              onClick={window.innerWidth <= "850px" && (() => toggleNav())}
+              key={index}
+            >
               <Link
                 className={
                   name.toLowerCase() === "login" ||

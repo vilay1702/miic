@@ -97,7 +97,7 @@
   width: 250px;
   height: 200px;
   background-color: $white;
-  margin: 1rem;
+  margin: 2rem 1rem;
 }
 
 .home-news-card > div {
@@ -108,10 +108,12 @@
   padding: 0.2rem 0.5rem;
 }
 
-.home-news-card > div:hover {
-  color: $white;
+.home-news-card:hover {
   background-color: $pink;
-  border-color: $pink;
+  > div {
+    color: $white;
+    border-bottom-color: $pink;
+  }
 }
 
 .home-news {

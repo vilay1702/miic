@@ -1,13 +1,13 @@
 @import "index";
 // @import "bootstrap/dist/css/bootstrap.min.css";
 
-#one {
+.one {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 3rem;
 
-  h1 {
+  > h1 {
     text-align: center;
     color: $white;
     font-family: $mont;
@@ -16,7 +16,7 @@
     font-weight: bold;
   }
 }
-#outer-p {
+.outer-p {
   width: 90%;
   max-width: 700px;
   color: $yellow;
@@ -25,229 +25,47 @@
 }
 
 /* ----- Open Ideas, Blog --- */
-#secondaryN img {
-  width: 300px;
-  height: 250px;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% 100%,
-    20% 100%,
-    15% 95%,
-    10% 100%,
-    0 100%
-  );
-}
-
-.firstN {
-  margin-top: 80px;
-}
-
-#mainN-2 {
-  margin-top: 100px;
-  margin-left: 300px;
-  /*width: 1000px;*/
-  border: none;
-}
-/*svg{
-     position: relative;
-     top: -50px;
-
-        left: 10px ;
-        margin-bottom: -55px;
-
-     /*margin-bottom: -65px;
-}*/
-
-.paraN {
-  background-color: $white;
-  padding-left: 10px;
-  /*margin-top: -30px;*/
-  /*margin-top: -20px;*/
-  width: 300px;
-  color: $text;
-}
-.paraN h2 {
-  font-weight: bold;
-  font-size: 25px;
-  padding-top: 10px;
-}
-.paraN p {
-  font-size: 18px;
-}
-
-.paraN:hover,
-#secondaryN:hover {
-  background-color: $text;
-  color: $white;
-}
-
-#secondaryN {
-  background-color: $white;
-  padding-bottom: 10px;
-  margin: 30px;
-  border: none;
-}
-.firstN,
-.secondN {
-  display: flex;
-}
 
 /* ----- Announcemnets ----*/
-.primaryN img {
-  width: 100px;
-  height: 100px;
-}
-#floatN {
-  margin-right: 300px;
-  width: 50%;
-  float: right;
-  padding-top: 0px;
-  margin-top: 20px;
-}
-#floatN p {
-  background-color: $white;
-  color: $text;
-  padding-left: 30px;
-  padding-bottom: 10px;
-}
-#floatN h2 {
-  margin-top: 20px;
-  background-color: $white;
-  color: $text;
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-left: 30px;
-}
-#img-w {
-  width: 250px;
-  height: 200px;
+.announce {
+  max-width: 1000px;
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  min-height: 300px;
+  text-align: justify;
+  gap: 1rem;
 
-  float: left;
-}
-.primaryN {
-  border: none;
-
-  /*width: 1090px;*/
-}
-#mainN-2 {
-  padding-bottom: 40px;
+  > img {
+    width: 300px;
+    height: 300px;
+  }
+  > div {
+    background-color: $white;
+    height: 100%;
+    color: $pink;
+    padding: 1rem;
+    > h1 {
+      border-bottom: 0.2rem solid $pink;
+      margin-bottom: 1rem;
+    }
+    > p {
+      font-weight: lighter !important;
+    }
+  }
 }
 /* ----Testinomial ---- */
-.radio {
-  display: none;
-}
 
-.slideN {
-  position: absolute;
-  background-color: $white;
-  width: 100%;
-  height: 80%;
-  left: 0;
-  opacity: 0;
-  top: 3860px;
-}
-fieldset {
-  border: none;
-}
-#testimonialN {
-  background: $blue;
-  background: linear-gradient(90deg, $blue 27%, $pink 57%);
-  font-weight: bold;
-  font-size: 50px;
-  padding: 20px;
-
-  margin-bottom: 600px;
-}
-
-.slideN img {
-  /*width: 25%;
-    height: 25%;*/
-  object-fit: cover;
-  transform: scale(1.1);
-}
-/*.img-p, .outerN{
-    display: flex;
-}*/
-.outerN {
-  width: 60%;
-  font-weight: bold;
-  padding-top: 180px;
-  color: $text;
-  font-size: 20px;
-  padding-left: 80px;
-}
-
-.img-p img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin-left: 100px;
-}
-.img-p p {
-  padding-top: 20px;
-  padding-left: 180px;
-}
-
-.img-p {
-  width: 25%;
-  float: left;
-  margin-top: 150px;
-  color: $text;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 50px;
-}
-
-.dotsN {
-  width: 100%;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 4350px;
-  margin-left: 0px;
-}
-.dotsN label {
-  width: 15px;
-  height: 15px;
-  background-color: $text;
-  margin: 0 10px;
-  border-radius: 50%;
-  opacity: 1;
-  cursor: pointer;
-}
-.dotsN label:hover {
-  background-color: $white;
-  border: 1px $text solid;
-}
-#radio-1:checked ~ #slide-1,
-#radio-2:checked ~ #slide-2,
-#radio-3:checked ~ #slide-3,
-#radio-4:checked ~ #slide-4 {
-  transform: scale(1);
-  opacity: 1;
-}
-#radio-1:checked ~ #slide-1 img,
-#radio-2:checked ~ #slide-2 img,
-#radio-3:checked ~ #slide-3 img,
-#radio-4:checked ~ #slide-4 img {
-  transform: scale(1);
-}
-
-.fa-quote-left {
-  color: $text;
-  font-size: 40px;
-  position: relative;
-  left: -50px;
-  top: 20px;
-}
-.fa-quote-right {
-  color: $yellow;
-  font-size: 40px;
-  position: relative;
-  top: 20px;
-  left: 810px;
+@media screen and (max-width: 850px) {
+  .announce {
+    border: 0.5rem solid $white;
+    background-color: $white;
+    margin: 1rem;
+    grid-template-columns: 1fr;
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
