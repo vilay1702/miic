@@ -11,8 +11,8 @@ import TwitterLogo from "../images/twitter.png";
 const Footer = () => {
   return (
     <footer>
-      <div class="footerAbout">
-        <div class="logo">
+      <div className="footerAbout">
+        <div className="logo">
           <img src={logo} alt="" />
           <h1>MIIC</h1>
         </div>
@@ -22,7 +22,7 @@ const Footer = () => {
           workers help in easing the process and help Incubatees to focus on
           ideas and work towards its further development
         </p>
-        <div class="socialHandles">
+        <div className="socialHandles">
           <a href="#">
             <img src={InstagramLogo} alt="" />
           </a>
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div class="usefulLinks">
+      <div className="usefulLinks">
         <h4>Useful Links</h4>
         <ul>
           {navContents.map(({ name, link }, index) => (
@@ -47,7 +47,7 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div class="twitterHandle">
+      <div className="twitterHandle">
         <h4>Our LinkedIn</h4>
         <p>
           One Day Workshop <br />

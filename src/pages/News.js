@@ -82,9 +82,9 @@ const News = () => {
   return (
     <>
       {/*-- Open Ideas--*/}
-      <section class="one">
+      <section className="one">
         <h1>Open Ideas</h1>
-        <p class="outer-p">
+        <p className="outer-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           aperiam cumque quisquam nostrum quas nulla exercitationem repellendus,
           soluta recusandae dolorem molestias minima amet eveniet sed, debitis
@@ -105,15 +105,15 @@ const News = () => {
             );
           })}
         </div>
-        <button type="button" class="btn btn-warning">
+        <button type="button" className="btn btn-warning">
           Load More
         </button>
       </section>
       {/* Annnouncements */}
-      <section class="one">
+      <section className="one">
         <h1>Announcements</h1>
 
-        <p class="outer-p">
+        <p className="outer-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           aperiam cumque quisquam nostrum quas nulla exercitationem repellendus,
           soluta recusandae dolorem molestias minima amet eveniet sed, debitis
@@ -133,7 +133,7 @@ const News = () => {
             );
           })}
         </div>
-        <button type="button" class="btn btn-warning">
+        <button type="button" className="btn btn-warning">
           Load More
         </button>
       </section>
@@ -160,7 +160,7 @@ const News = () => {
             );
           })}
         </div>
-        <a href="#" class="btn">
+        <a href="#" className="btn">
           Load More
         </a>
       </section>

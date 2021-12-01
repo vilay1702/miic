@@ -4,7 +4,7 @@ import "../css/toTop.scss";
 
 const ToTop = () => {
   return (
-    <span class="material-icons-outlined" id="to-top-button">
+    <span className="material-icons-outlined" id="to-top-button">
       e5d8
     </span>
   );

@@ -26,7 +26,7 @@ const AboutUs = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -35,7 +35,7 @@ const AboutUs = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               ABOUT US
             </Link>
           </div>
@@ -60,7 +60,7 @@ const AboutUs = () => {
               various interventions and initiatives amongst classes and
               communities.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -69,7 +69,7 @@ const AboutUs = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               POLICY
             </Link>
           </div>
@@ -210,7 +210,7 @@ const AboutUs = () => {
               We'd love to connect with you and help you mould your ideas into
               successful products.
             </p>
-            <button type="submit" class="btn">
+            <button type="submit" className="btn">
               Submit
             </button>
           </div>
@@ -236,7 +236,7 @@ const AboutUs = () => {
       <div className="block">
         <h1>GALLERY</h1>
       </div>
-      <div class="backimage"></div>
+      <div className="backimage"></div>
 
       <section className="inquiry-outer-container">
         <section className="inquiry-inner-container">
@@ -246,7 +246,7 @@ const AboutUs = () => {
               We'd love to connect with you and help you mould your ideas into
               successful products.
             </p>
-            <button type="submit" class="btn">
+            <button type="submit" className="btn">
               Submit
             </button>
           </div>

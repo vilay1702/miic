@@ -20,7 +20,7 @@ const Apply = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -29,7 +29,7 @@ const Apply = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               APPLY
             </Link>
           </div>
@@ -49,7 +49,7 @@ const Apply = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -58,7 +58,7 @@ const Apply = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               APPLY
             </Link>
           </div>
@@ -78,7 +78,7 @@ const Apply = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -87,7 +87,7 @@ const Apply = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               APPLY
             </Link>
           </div>
@@ -107,7 +107,7 @@ const Apply = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -116,7 +116,7 @@ const Apply = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               APPLY
             </Link>
           </div>
@@ -136,7 +136,7 @@ const Apply = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -145,7 +145,7 @@ const Apply = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               APPLY
             </Link>
           </div>
@@ -165,7 +165,7 @@ const Apply = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -174,7 +174,7 @@ const Apply = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               APPLY
             </Link>
           </div>

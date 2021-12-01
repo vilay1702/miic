@@ -228,7 +228,7 @@ const Incubation = () => {
 
       <section className="containerL">
         <div className="cardContainer">
-          <h2 class="yellow">Eligibility</h2>
+          <h2 className="yellow">Eligibility</h2>
           <ol>
             <li>Loremipsum</li>
             <li>ipsumconsectetur</li>
@@ -282,7 +282,7 @@ const Incubation = () => {
       </div>
 
       <div className="imageContainer">
-        <div class="applyButton">
+        <div className="applyButton">
           <a href="#" className="btn btn-warning">
             Apply
           </a>

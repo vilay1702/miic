@@ -22,7 +22,7 @@ const Home = () => {
               infrastructure to create technology and innovation-based start-up
               companies.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -31,22 +31,22 @@ const Home = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               ABOUT US
             </Link>
           </div>
         </section>
       </section>
 
-      <section class="home-partners">
-        <div class="home-brands">
+      <section className="home-partners">
+        <div className="home-brands">
           {Array(10)
             .fill()
             .map(() => (
               <img src={brandImg} alt={brandImg} />
             ))}
         </div>
-        <div class="home-partners-info">
+        <div className="home-partners-info">
           <h2>Our partners</h2>
           <p>
             Our people share their insights on implementing your innovative idea
@@ -70,7 +70,7 @@ const Home = () => {
               various interventions and initiatives amongst classes and
               communities.
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Similique consequatur doloribus ex, recusandae doloremque quisquam
               culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
@@ -79,7 +79,7 @@ const Home = () => {
               Reiciendis ratione, hic recusandae perspiciatis inventore id
               minima aliquam?
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               POLICY
             </Link>
           </div>
@@ -100,7 +100,7 @@ const Home = () => {
               with different background and prepare them to compete at the
               national and international levels as entrepreneurs
             </p>
-            <p class="highlightPara">
+            <p className="highlightPara">
               Transmitting knowledge through a well thought teaching pedagogy
               and putting a strong emphasis on knowledge creation through
               well-planned training programmes in emerging areas and application
@@ -111,7 +111,7 @@ const Home = () => {
               market. Creating awareness among the students and help society to
               come up with new solutions to existing problem
             </p>
-            <Link to="/miic/about" class="btn">
+            <Link to="/miic/about" className="btn">
               POLICY
             </Link>
           </div>
@@ -143,7 +143,7 @@ const Home = () => {
               );
             })}
         </div>
-        <a href="#" class="btn">
+        <a href="#" className="btn">
           Load More
         </a>
       </section>
@@ -156,7 +156,7 @@ const Home = () => {
               We'd love to connect with you and help you mould your ideas into
               successful products.
             </p>
-            <button type="submit" class="btn">
+            <button type="submit" className="btn">
               Submit
             </button>
           </div>

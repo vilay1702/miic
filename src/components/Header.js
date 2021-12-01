@@ -7,23 +7,25 @@ const Header = () => {
   const toggleNav = () => {
     const navToggler = document.querySelectorAll("#nav-toggler>div");
     const navList = document.querySelector("nav ul");
-    // console.log(navToggler);
     navList.classList.toggle("toggle-nav-list");
     navToggler[0].classList.toggle("nav-line-one");
     navToggler[1].classList.toggle("nav-line-two");
     navToggler[2].classList.toggle("nav-line-three");
   };
+
   return (
     <header>
       <nav>
-        <div class="logo">
+        <div className="logo">
           <img src={logo} alt="" />
           <h1>MIIC</h1>
         </div>
         <ul>
           {navContents.map(({ name, link }, index) => (
             <li
-              onClick={window.innerWidth <= "850px" && (() => toggleNav())}
+              onClick={
+                window.innerWidth <= "850" ? () => toggleNav() : () => {}
+              }
               key={index}
             >
               <Link
@@ -46,7 +48,7 @@ const Header = () => {
           <div></div>
         </div>
       </nav>
-      <div class="carousel">
+      <div className="carousel">
         <h2>MIIC</h2>
         <p>
           MIIC provides an interactive and safe environment for learning and

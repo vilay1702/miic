@@ -121,9 +121,9 @@ const Programs = () => {
   return (
     <>
       {/* Events */}
-      <section class="one">
+      <section className="one">
         <h1>Events</h1>
-        <p class="outer-p">
+        <p className="outer-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           aperiam cumque quisquam nostrum quas nulla exercitationem repellendus,
           soluta recusandae dolorem molestias minima amet eveniet sed, debitis
@@ -144,15 +144,15 @@ const Programs = () => {
             );
           })}
         </div>
-        <button type="button" class="btn btn-warning">
+        <button type="button" className="btn btn-warning">
           Load More
         </button>
       </section>
       {/* Workshops */}
-      <section class="one">
+      <section className="one">
         <h1>Workshops</h1>
 
-        <p class="outer-p">
+        <p className="outer-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           aperiam cumque quisquam nostrum quas nulla exercitationem repellendus,
           soluta recusandae dolorem molestias minima amet eveniet sed, debitis
@@ -172,14 +172,14 @@ const Programs = () => {
             );
           })}
         </div>
-        <button type="button" class="btn btn-warning">
+        <button type="button" className="btn btn-warning">
           Load More
         </button>
       </section>
       {/* Seminars */}
-      <section class="one">
+      <section className="one">
         <h1>Seminars</h1>
-        <p class="outer-p">
+        <p className="outer-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           aperiam cumque quisquam nostrum quas nulla exercitationem repellendus,
           soluta recusandae dolorem molestias minima amet eveniet sed, debitis
@@ -200,16 +200,16 @@ const Programs = () => {
             );
           })}
         </div>
-        <button type="button" class="btn btn-warning">
+        <button type="button" className="btn btn-warning">
           Load More
         </button>
       </section>
 
       {/* Webinars */}
-      <section class="one">
+      <section className="one">
         <h1>Webinars</h1>
 
-        <p class="outer-p">
+        <p className="outer-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
           aperiam cumque quisquam nostrum quas nulla exercitationem repellendus,
           soluta recusandae dolorem molestias minima amet eveniet sed, debitis
@@ -229,7 +229,7 @@ const Programs = () => {
             );
           })}
         </div>
-        <button type="button" class="btn btn-warning">
+        <button type="button" className="btn btn-warning">
           Load More
         </button>
       </section>
