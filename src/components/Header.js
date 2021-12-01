@@ -12,7 +12,6 @@ const Header = () => {
     navToggler[1].classList.toggle("nav-line-two");
     navToggler[2].classList.toggle("nav-line-three");
   };
-
   return (
     <header>
       <nav>

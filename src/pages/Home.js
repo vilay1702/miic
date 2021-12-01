@@ -163,11 +163,11 @@ const Home = () => {
           <div className="inquiry-form-container">
             <h2>Inquiry</h2>
             <form action="#">
-              <label for="name">Your Full name</label>
+              <label htmlFor="name">Your Full name</label>
               <input type="text" id="nameInput" name="name" />
-              <label for="email">Your Email address</label>
+              <label htmlFor="email">Your Email address</label>
               <input type="email" id="emailInput" name="email" />
-              <label for="inquiry">Your Inquiry</label>
+              <label htmlFor="inquiry">Your Inquiry</label>
               <textarea
                 name="inquiry"
                 id="inquiryInput"
