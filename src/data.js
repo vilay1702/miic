@@ -1,27 +1,27 @@
 const navContents = [
   {
     name: "Home",
-    link: "/miic/",
+    link: "/",
   },
   {
     name: "About Us",
-    link: "/miic/aboutus",
+    link: "/aboutus",
   },
   {
     name: "Mentors",
-    link: "/miic/mentors",
+    link: "/mentors",
   },
   {
     name: "Incubation",
-    link: "/miic/incubation",
+    link: "/incubation",
   },
   {
     name: "Programs",
-    link: "/miic/programs",
+    link: "/programs",
   },
   {
     name: "News",
-    link: "/miic/news",
+    link: "/news",
   },
   // {
   //   name: "Ecosystem",
@@ -33,11 +33,11 @@ const navContents = [
   // },
   {
     name: "Login",
-    link: "/miic/login",
+    link: "/login",
   },
   {
     name: "Apply",
-    link: "/miic/apply",
+    link: "/apply",
   },
 ];
 
