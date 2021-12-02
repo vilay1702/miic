@@ -1,12 +1,13 @@
 import React from "react";
-
 import "../css/toTop.scss";
 
 const ToTop = () => {
   return (
-    <span className="material-icons-outlined" id="to-top-button">
-      e5d8
-    </span>
+    <abbr title="Back to Top">
+      <a href="#back-to-top" id="to-top-button">
+        <img src="https://img.icons8.com/material-sharp/24/000000/circled-up.png" />
+      </a>
+    </abbr>
   );
 };
 

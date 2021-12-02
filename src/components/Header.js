@@ -13,7 +13,7 @@ const Header = () => {
     navToggler[2].classList.toggle("nav-line-three");
   };
   return (
-    <header>
+    <header id="back-to-top">
       <nav>
         <div className="logo">
           <img src={logo} alt="" />

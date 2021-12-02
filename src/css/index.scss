@@ -29,6 +29,7 @@ body {
   background: linear-gradient(to right, $blue, darken($pink, 10));
   color: $white;
   font-family: $mont;
+  overflow-x: hidden;
 }
 
 a {
@@ -55,7 +56,8 @@ a {
 }
 
 ::-webkit-scrollbar {
-  background: linear-gradient(to bottom, $pink, $blue);
+  // background: linear-gradient(to bottom, $pink, $blue);
+  background: $pink;
   width: 5px;
 }
 

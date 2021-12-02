@@ -1,6 +1,9 @@
 #to-top-button {
   position: fixed;
-  bottom: 0.5em;
-  right: 0.5em;
+  bottom: 0.5rem;
+  right: 1rem;
   z-index: 100;
+  > img {
+    width: 2rem;
+  }
 }
