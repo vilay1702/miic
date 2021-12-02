@@ -5,6 +5,33 @@ import brandImg from "../images/brand.png";
 import image2 from "../images/image2.jpeg";
 import { Link } from "react-router-dom";
 
+const news = [
+  {
+    title: "News 1",
+    desc: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.`,
+  },
+  {
+    title: "News 2",
+    desc: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.`,
+  },
+  {
+    title: "News 3",
+    desc: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.`,
+  },
+  {
+    title: "News 4",
+    desc: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.`,
+  },
+  {
+    title: "News 5",
+    desc: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.`,
+  },
+  {
+    title: "News 6",
+    desc: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.`,
+  },
+];
+
 const Home = () => {
   return (
     <main>
@@ -126,22 +153,17 @@ const Home = () => {
           dignissimos voluptatum odio!
         </p>
         <div className="home-news">
-          {Array(6)
-            .fill()
-            .map(() => {
-              return (
-                <div className="home-news-card">
-                  <img src={newsBackground} alt="" />
-                  <div>
-                    <h3>News</h3>
-                    <span>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Tempore, perspiciatis.
-                    </span>
-                  </div>
+          {news.map(({ title, desc }, index) => {
+            return (
+              <div key={index} className="home-news-card">
+                <img src={newsBackground} alt="" />
+                <div>
+                  <h3>{title}</h3>
+                  <span>{desc}</span>
                 </div>
-              );
-            })}
+              </div>
+            );
+          })}
         </div>
         <a href="#" className="btn">
           Load More

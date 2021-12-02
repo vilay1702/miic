@@ -159,7 +159,7 @@ nav ul li {
     align-items: center;
     width: 100vw;
     height: 0vh;
-    overflow: hidden;
+    overflow: scroll;
     top: 0;
     left: 0;
     background: linear-gradient(to bottom, $pink, $blue);

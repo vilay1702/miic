@@ -58,6 +58,9 @@
 /* ----Testinomial ---- */
 
 @media screen and (max-width: 850px) {
+  .one > h1 {
+    font-size: 2rem !important;
+  }
   .announce {
     border: 0.5rem solid $white;
     background-color: $white;
