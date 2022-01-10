@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/miic/static/css/main.5dd40e9b.chunk.css",
-    "main.js": "/miic/static/js/main.63e47d69.chunk.js",
-    "main.js.map": "/miic/static/js/main.63e47d69.chunk.js.map",
+    "main.css": "/miic/static/css/main.c9de170a.chunk.css",
+    "main.js": "/miic/static/js/main.d748b82b.chunk.js",
+    "main.js.map": "/miic/static/js/main.d748b82b.chunk.js.map",
     "runtime-main.js": "/miic/static/js/runtime-main.d09cccc8.js",
     "runtime-main.js.map": "/miic/static/js/runtime-main.d09cccc8.js.map",
     "static/js/2.a33cc862.chunk.js": "/miic/static/js/2.a33cc862.chunk.js",
@@ -10,12 +10,13 @@
     "static/js/3.394bab57.chunk.js": "/miic/static/js/3.394bab57.chunk.js",
     "static/js/3.394bab57.chunk.js.map": "/miic/static/js/3.394bab57.chunk.js.map",
     "index.html": "/miic/index.html",
-    "static/css/main.5dd40e9b.chunk.css.map": "/miic/static/css/main.5dd40e9b.chunk.css.map",
+    "static/css/main.c9de170a.chunk.css.map": "/miic/static/css/main.c9de170a.chunk.css.map",
     "static/js/2.a33cc862.chunk.js.LICENSE.txt": "/miic/static/js/2.a33cc862.chunk.js.LICENSE.txt",
     "static/media/1.a8c5cf83.jpeg": "/miic/static/media/1.a8c5cf83.jpeg",
     "static/media/13.15179f16.jpeg": "/miic/static/media/13.15179f16.jpeg",
     "static/media/7.8cce62e7.jpeg": "/miic/static/media/7.8cce62e7.jpeg",
     "static/media/O_notation.3d853c3a.png": "/miic/static/media/O_notation.3d853c3a.png",
+    "static/media/aicte_logo.5ca434d8.png": "/miic/static/media/aicte_logo.5ca434d8.png",
     "static/media/header.scss": "/miic/static/media/background.cba20ce4.jpeg",
     "static/media/blur-background-2.e005c612.jpg": "/miic/static/media/blur-background-2.e005c612.jpg",
     "static/media/brand.42151c07.png": "/miic/static/media/brand.42151c07.png",
@@ -23,21 +24,29 @@
     "static/media/entreprenuer.72d3aa0d.jfif": "/miic/static/media/entreprenuer.72d3aa0d.jfif",
     "static/media/essay.c5969842.jfif": "/miic/static/media/essay.c5969842.jfif",
     "static/media/ideas_blog.60fab938.jfif": "/miic/static/media/ideas_blog.60fab938.jfif",
+    "static/media/iic_logo.f5e7e138.png": "/miic/static/media/iic_logo.f5e7e138.png",
     "static/media/incubation.scss": "/miic/static/media/image1.b9d197b8.jpeg",
     "static/media/policy.scss": "/miic/static/media/image1Transparent.837a58f1.png",
     "static/media/image2.eb12b8d0.jpeg": "/miic/static/media/image2.eb12b8d0.jpeg",
     "static/media/innovation.e6898e2b.jfif": "/miic/static/media/innovation.e6898e2b.jfif",
     "static/media/logo.75c00ca0.png": "/miic/static/media/logo.75c00ca0.png",
+    "static/media/mhrd_logo.a46c0bbe.jpg": "/miic/static/media/mhrd_logo.a46c0bbe.jpg",
     "static/media/ml.a0162f3d.png": "/miic/static/media/ml.a0162f3d.png",
+    "static/media/msme_logo.55e5ee0c.jpeg": "/miic/static/media/msme_logo.55e5ee0c.jpeg",
     "static/media/person.2ab1199f.jfif": "/miic/static/media/person.2ab1199f.jfif",
+    "static/media/png1.6babeeb6.PNG": "/miic/static/media/png1.6babeeb6.PNG",
+    "static/media/png2.1bcce969.PNG": "/miic/static/media/png2.1bcce969.PNG",
+    "static/media/png3.e065b61e.PNG": "/miic/static/media/png3.e065b61e.PNG",
     "static/media/poster.2d3dda71.jfif": "/miic/static/media/poster.2d3dda71.jfif",
     "static/media/recuit.476955e6.jpeg": "/miic/static/media/recuit.476955e6.jpeg",
+    "static/media/startup1.2db87d99.jpeg": "/miic/static/media/startup1.2db87d99.jpeg",
+    "static/media/startup2.f8ef8ba8.jpeg": "/miic/static/media/startup2.f8ef8ba8.jpeg",
     "static/media/unbox.3777a1ef.jfif": "/miic/static/media/unbox.3777a1ef.jfif"
   },
   "entrypoints": [
     "static/js/runtime-main.d09cccc8.js",
     "static/js/2.a33cc862.chunk.js",
-    "static/css/main.5dd40e9b.chunk.css",
-    "static/js/main.63e47d69.chunk.js"
+    "static/css/main.c9de170a.chunk.css",
+    "static/js/main.d748b82b.chunk.js"
   ]
 }
