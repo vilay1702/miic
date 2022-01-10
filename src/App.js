@@ -29,7 +29,7 @@ function App() {
           <Route path="/programs" component={Programs} />
           <Route path="*" component={Home} />
         </Switch>
-        <ToTop />/
+        <ToTop />
         <Footer />
       </Router>
     </>

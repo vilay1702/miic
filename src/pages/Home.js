@@ -4,6 +4,12 @@ import newsBackground from "../images/background.jpeg";
 import brandImg from "../images/brand.png";
 import image2 from "../images/image2.jpeg";
 import { Link } from "react-router-dom";
+import mhrd_logo from "../images/mhrd_logo.jpg";
+import msme_logo from "../images/msme_logo.jpeg";
+import iic_logo from "../images/iic_logo.png";
+import aicte_logo from "../images/aicte_logo.png";
+import startup1 from "../images/startup1.jpeg";
+import startup2 from "../images/startup2.jpeg";
 
 const news = [
   {
@@ -32,9 +38,40 @@ const news = [
   },
 ];
 
+const partners = [
+  {
+    img: aicte_logo,
+    title: "AICTE",
+  },
+  {
+    img: iic_logo,
+    title: "IIC",
+  },
+  {
+    img: mhrd_logo,
+    title: "MHRD",
+  },
+  {
+    img: msme_logo,
+    title: "MSME",
+  },
+];
+
+const startups = [
+  {
+    img: startup1,
+    title: "",
+  },
+  {
+    img: startup2,
+    title: "",
+  },
+];
+
 const Home = () => {
   return (
     <main>
+      {/* About us  */}
       <section className="outer-container">
         <section className="inner-container">
           <div className="img-container">
@@ -65,13 +102,15 @@ const Home = () => {
         </section>
       </section>
 
+      {/* ============== Partners ============== */}
       <section className="home-partners">
         <div className="home-brands">
-          {Array(10)
-            .fill()
-            .map(() => (
-              <img src={brandImg} alt={brandImg} />
-            ))}
+          {partners.map(({ img, title }, index) => (
+            <div>
+              <img key={index} src={img} alt={img} />
+              <p>{title}</p>
+            </div>
+          ))}
         </div>
         <div className="home-partners-info">
           <h2>Our partners</h2>
@@ -82,6 +121,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* ============== Vision ============== */}
       <section className="outer-container">
         <section className="inner-container inner-container-reverse">
           <div className="img-container">
@@ -112,6 +152,25 @@ const Home = () => {
           </div>
         </section>
       </section>
+      {/* ============== Startups ============== */}
+      <section className="home-partners">
+        <div className="home-brands">
+          {startups.map(({ img, title }, index) => (
+            <div>
+              <img key={index} src={img} alt={img} />
+              {/* <p>{title}</p> */}
+            </div>
+          ))}
+        </div>
+        <div className="home-partners-info">
+          <h2>Our Startups</h2>
+          <p>
+            Our people share their insights on implementing your innovative idea
+            to the real world.
+          </p>
+        </div>
+      </section>
+      {/* ============== Mission ============== */}
       <section className="outer-container">
         <section className="inner-container">
           <div className="img-container">
@@ -145,6 +204,7 @@ const Home = () => {
         </section>
       </section>
 
+      {/* ============== News ============== */}
       <section className="home-news-section">
         <h1>News</h1>
         <p>
@@ -170,6 +230,7 @@ const Home = () => {
         </a>
       </section>
 
+      {/* ============== Inquiry ============== */}
       <section className="inquiry-outer-container">
         <section className="inquiry-inner-container">
           <div className="inquiry-card-container">

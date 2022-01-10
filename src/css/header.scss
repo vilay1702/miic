@@ -1,7 +1,7 @@
 @import "index";
 
 $nav-toggler-width: 40px;
-$nav-toggler-height: 5px;
+$nav-toggler-height: 3px;
 
 header {
   min-height: 100vh;
@@ -38,16 +38,16 @@ header::before {
 }
 
 nav {
-  margin: 2rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90vw;
+  width: 100%;
 }
 
 nav ul {
   display: flex;
-  margin-left: 5vw;
+  margin-right: 5vw;
   transition: all 0.4s;
 }
 
@@ -78,66 +78,103 @@ nav ul li {
 // ======================= Nav Toggler =======================
 
 #nav-toggler {
-  position: fixed;
-  right: 5vw;
-  display: none;
+  // position: fixed;
   cursor: pointer;
+  margin-right: 5vw;
   z-index: 110;
+  width: $nav-toggler-width;
+  display: none;
   > div {
-    width: $nav-toggler-width;
+    width: 100%;
     height: $nav-toggler-height;
     background-color: $white;
-    border-radius: 1rem;
-    border: none;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s;
+    // border-radius: 100px;
+    position: relative;
+    float: right;
   }
   > div:nth-child(2) {
-    margin: $nav-toggler-height 0;
+    width: 80%;
+    margin: 2 * $nav-toggler-height 0;
   }
 }
 
 .nav-line-one {
-  animation: nav-line-one;
-  animation-duration: 0.4s;
-  animation-fill-mode: forwards;
+  transform: rotate(45deg) translateY(4.5 * $nav-toggler-height);
 }
 .nav-line-two {
+  transform: translateX(-$nav-toggler-width/2);
   opacity: 0;
 }
 .nav-line-three {
-  animation: nav-line-three;
-  animation-duration: 0.4s;
-  animation-fill-mode: forwards;
+  transform: rotate(-45deg) translateY(4.5 * -$nav-toggler-height);
 }
 
 .toggle-nav-list {
   height: 100vh !important;
 }
 
-@keyframes nav-line-one {
-  0% {
-    transform: translate(0);
-  }
-  50% {
-    transform: translateY($nav-toggler-height * 2);
-  }
-  100% {
-    transform: rotate(45deg)
-      translate($nav-toggler-height, $nav-toggler-height * 2);
-  }
-}
-@keyframes nav-line-three {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-$nav-toggler-height * 2);
-  }
-  100% {
-    transform: rotate(-45deg)
-      translate($nav-toggler-height, -$nav-toggler-height * 2);
-  }
-}
+// #nav-toggler {
+//   position: fixed;
+//   right: 5vw;
+//   display: none;
+//   cursor: pointer;
+//   z-index: 110;
+//   > div {
+//     width: $nav-toggler-width;
+//     height: $nav-toggler-height;
+//     background-color: $white;
+//     border-radius: 1rem;
+//     border: none;
+//     transition: all 0.4s ease-in-out;
+//   }
+//   > div:nth-child(2) {
+//     margin: $nav-toggler-height 0;
+//   }
+// }
+
+// .nav-line-one {
+//   animation: nav-line-one;
+//   animation-duration: 0.4s;
+//   animation-fill-mode: forwards;
+// }
+// .nav-line-two {
+//   opacity: 0;
+// }
+// .nav-line-three {
+//   animation: nav-line-three;
+//   animation-duration: 0.4s;
+//   animation-fill-mode: forwards;
+// }
+
+// .toggle-nav-list {
+//   height: 100vh !important;
+// }
+
+// @keyframes nav-line-one {
+//   0% {
+//     transform: translate(0);
+//   }
+//   50% {
+//     transform: translateY($nav-toggler-height * 2);
+//   }
+//   100% {
+// transform: rotate(45deg)
+//   translate($nav-toggler-height, $nav-toggler-height * 2);
+//   }
+// }
+// @keyframes nav-line-three {
+//   0% {
+//     transform: translateY(0);
+//   }
+//   50% {
+//     transform: translateY(-$nav-toggler-height * 2);
+//   }
+//   100% {
+// transform: rotate(-45deg)
+//   translate($nav-toggler-height, -$nav-toggler-height * 2);
+//   }
+// }
 
 .carousel {
   text-align: center;
@@ -147,7 +184,7 @@ nav ul li {
   margin-top: 5em;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   nav {
     margin: 2rem 0;
   }

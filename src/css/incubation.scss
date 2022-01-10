@@ -3,29 +3,27 @@
   color: $yellow;
   font-weight: bold;
 }
-.containerL {
-  background-color: $white;
-  height: 45rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .cardcontainer {
   align-content: flex-end;
   background-color: $blue;
-  max-width: 350px;
   width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cardcontainer {
-  background-color: $blue;
   min-height: 500px;
   padding: 5rem 1rem;
   > p {
     text-align: justify;
     margin-bottom: 1rem;
   }
+  background-color: $blue;
+  align-items: flex-end;
+  text-align: right;
 }
 
 .block {
@@ -49,7 +47,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 60vh;
   min-height: 45rem;
   background-color: white;
 }
@@ -66,16 +64,13 @@
 }
 
 .news > p {
-  padding: 50px;
   margin: auto;
-  width: 90% !important;
 }
 
 .red,
 .red > span,
 .red > p {
   color: #a22b40;
-  padding: 50px;
 }
 
 .green,
@@ -94,18 +89,17 @@
   padding: 12px 0px 12px 10px;
   font-style: bold;
   text-align: justify;
-  width: 90%;
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  width: 100%;
+  font-size: 1rem;
 }
 
-.newsCard {
-  border-radius: 100%;
+.incubationCard {
   height: 9vw;
   width: 9vw;
+  margin: 2rem;
 }
 
-.newsCard > img {
-  border-radius: 100%;
+.incubationCard > img {
   height: 9vw;
   width: 9vw;
 }
@@ -117,6 +111,7 @@ ol li {
   padding: 6%;
   font-size: 15px;
   font-style: bold;
+  border: none;
 }
 
 .yellow {
@@ -137,12 +132,41 @@ ol li {
   background-color: $white;
 }
 
-.mentor-txt {
+.incubation-txt {
+  color: $blue;
+  background-color: $white;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+}
+
+.services-txt {
   color: $blue;
   background-color: $white;
   align-items: center;
   text-align: center;
   width: 50%;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.incubation-outer-container {
+  background-color: $white;
+  padding: 1rem;
+}
+
+.incubation-inner-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.incubation-container {
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .paragraph {
@@ -178,7 +202,15 @@ ol li {
   padding: auto;
 }
 
-@media screen and (max-width: 720px) {
+.eligibilty-list {
+  margin: 12% 0%;
+}
+
+@media screen and (max-width: 780px) {
+  .cardcontainer {
+    text-align: center;
+    align-items: center;
+  }
   .redpara {
     max-width: 700px;
     width: 90%;
@@ -188,24 +220,20 @@ ol li {
     margin: auto;
     padding: 3%;
   }
-
   .news {
     height: fit-content;
   }
-
   .news {
     text-align: center;
     align-items: center;
     justify-content: center;
     height: 45vh;
   }
-
-  .newsCard > h3 > span {
+  .incubationCard > h3 > span {
     justify-content: center;
     text-align: center;
     color: $pink;
   }
-
   .paragraph {
     width: 80%;
     justify-content: center;
@@ -214,14 +242,13 @@ ol li {
     margin: auto;
     padding: auto;
   }
-
-  .mentor-txt {
+  .incubation-txt {
     max-width: 700px;
     width: 80%;
+    max-width: 440px;
+    margin: auto;
     justify-content: center;
     text-align: center;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    margin: auto;
-    padding: 3%;
   }
 }

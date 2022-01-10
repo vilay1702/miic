@@ -19,6 +19,10 @@ $text: #eb349b;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 textarea:focus,
 input:focus {
   font-family: $mont;

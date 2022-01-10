@@ -1,7 +1,9 @@
 import React from "react";
 import "../css/incubation.scss";
 import { Grid } from "@material-ui/core";
-import brandImg from "../images/brand.png";
+import png1 from "../images/png1.PNG";
+import png2 from "../images/png2.PNG";
+import png3 from "../images/png3.PNG";
 
 const Incubation = () => {
   return (
@@ -12,67 +14,61 @@ const Incubation = () => {
       <section className="news green">
         <Grid container spacing={2}>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Facility1</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png2} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Facility2</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Facility3</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png3} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Facility4</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Facility5</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png3} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Facility6</h3>
               </div>
             </div>
           </Grid>
         </Grid>
-        <p className="mentor-txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+        <p className="incubation-txt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis
           consequuntur necessitatibus ducimus facilis amet itaque autem debitis
-          dignissimos voluptatum odio! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Corporis consequuntur necessitatibus ducimus facilis
-          amet itaque autem debitis dignissimos voluptatum odio! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Corporis consequuntur
+          dignissimos voluptatum odio!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.Corporis consequuntur necessitatibus ducimus facilis
+          amet itaque autem debitis dignissimos voluptatum odio!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit.Corporis consequuntur
           necessitatibus ducimus facilis amet itaque autem debitis dignissimos
           voluptatum odio!
         </p>
@@ -84,67 +80,79 @@ const Incubation = () => {
       <section className="news green">
         <Grid container spacing={2}>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Service1</h3>
+                <span class="services-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png2} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Service2</h3>
+                <span class="services-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Service3</h3>
+                <span class="services-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png3} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Service4</h3>
+                <span class="services-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Service5</h3>
+                <span class="services-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png3} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Service6</h3>
+                <span class="services-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
               </div>
             </div>
           </Grid>
         </Grid>
-        <p className="mentor-txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+        <p className="incubation-txt red">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis
           consequuntur necessitatibus ducimus facilis amet itaque autem debitis
-          dignissimos voluptatum odio! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Corporis consequuntur necessitatibus ducimus facilis
-          amet itaque autem debitis dignissimos voluptatum odio! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Corporis consequuntur
+          dignissimos voluptatum odio!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.Corporis consequuntur necessitatibus ducimus facilis
+          amet itaque autem debitis dignissimos voluptatum odio!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit.Corporis consequuntur
           necessitatibus ducimus facilis amet itaque autem debitis dignissimos
           voluptatum odio!
         </p>
@@ -156,67 +164,61 @@ const Incubation = () => {
       <section className="news green">
         <Grid container spacing={2}>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Resource1 </h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png2} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Resource2</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Resource3</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png3} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Resource4</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png1} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Resource5</h3>
               </div>
             </div>
           </Grid>
           <Grid item xs={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
+            <div className="incubationCard">
+              <img src={png3} alt="" />
               <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+                <h3>Resource6</h3>
               </div>
             </div>
           </Grid>
         </Grid>
-        <p className="mentor-txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+        <p className="incubation-txt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis
           consequuntur necessitatibus ducimus facilis amet itaque autem debitis
-          dignissimos voluptatum odio! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Corporis consequuntur necessitatibus ducimus facilis
-          amet itaque autem debitis dignissimos voluptatum odio! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Corporis consequuntur
+          dignissimos voluptatum odio!Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.Corporis consequuntur necessitatibus ducimus facilis
+          amet itaque autem debitis dignissimos voluptatum odio!Lorem ipsum
+          dolor sit amet consectetur adipisicing elit.Corporis consequuntur
           necessitatibus ducimus facilis amet itaque autem debitis dignissimos
           voluptatum odio!
         </p>
@@ -226,36 +228,40 @@ const Incubation = () => {
         <h1>Eligibility</h1>
       </div>
 
-      <section className="containerL">
-        <div className="cardContainer">
-          <h2 className="yellow">Eligibility</h2>
-          <ol>
-            <li>Loremipsum</li>
-            <li>ipsumconsectetur</li>
-            <li>consecteturadipisici</li>
-            <li>adipisicing</li>
-            <li>elit</li>
-          </ol>
-        </div>
-        <div className="imgContainer">
-          <h2 className="blue">Eligibility</h2>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-          <p className="redpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            quidem animi rem, tenetur impedit, a ab ipsum architecto amet
-          </p>
-        </div>
+      <section className="incubation-outer-container">
+        <section className="incubation-inner-container">
+          <div className="cardcontainer">
+            <p>
+              <h2 class="yellow">Eligibility</h2>
+              <ol>
+                <li className="eligibilty-list">Loremipsum</li>
+                <li className="eligibilty-list">ipsumconsectetur</li>
+                <li className="eligibilty-list">consecteturadipisici</li>
+                <li className="eligibilty-list">adipisicing</li>
+                <li className="eligibilty-list">elit</li>
+              </ol>
+            </p>
+          </div>
+          <div className="incubation-container">
+            <h2 className="blue">Eligibility</h2>
+            <p className="redpara">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+            </p>
+            <p className="redpara">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+            </p>
+            <p className="redpara">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+            </p>
+            <p className="redpara">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              quidem animi rem, tenetur impedit, a ab ipsum architecto amet
+            </p>
+          </div>
+        </section>
       </section>
 
       <div className="paracontainer">
@@ -282,7 +288,7 @@ const Incubation = () => {
       </div>
 
       <div className="imageContainer">
-        <div className="applyButton">
+        <div class="applyButton">
           <a href="#" className="btn btn-warning">
             Apply
           </a>
