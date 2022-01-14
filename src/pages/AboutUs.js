@@ -7,6 +7,18 @@ import image1 from "../images/image1.jpeg";
 import image2 from "../images/image2.jpeg";
 import brandImg from "../images/brand.png";
 
+const miicMembers = [
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: brandImg, name: "Name", designation: "Designation" },
+];
+
 const AboutUs = () => {
   return (
     <main>
@@ -73,130 +85,22 @@ const AboutUs = () => {
         </section>
       </section>
       <hr className="blank"></hr>
-      <div className="block">
-        <h1>BOARD MEMBERS</h1>
+      <div className="mentors-heading">
+        <h1>MEMBERS OF MIIC</h1>
       </div>
 
-      <section className="news">
-        <Grid container spacing={2}>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
+      <section className="mentors-outer">
+        <div className="mentors">
+          {miicMembers.map(({ name, img, designation }, index) => {
+            return (
+              <div className="mentor">
+                <img src={img} alt="" />
+                <h1>{name}</h1>
+                <p>{designation}</p>
               </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-        </Grid>
-      </section>
-
-      <div className="block">
-        <h1>LEADERSHIP TEAM</h1>
-      </div>
-
-      <section className="news">
-        <Grid container spacing={2}>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-          <Grid item xs={2} sm={4} md={4}>
-            <div className="newsCard">
-              <img src={brandImg} alt="" />
-              <div>
-                <h3>Name</h3>
-                <span>Designation</span>
-              </div>
-            </div>
-          </Grid>
-        </Grid>
+            );
+          })}
+        </div>
       </section>
 
       <section className="inquiry-outer-container">
