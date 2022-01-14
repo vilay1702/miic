@@ -59,6 +59,10 @@ a {
   color: $yellow;
 }
 
+.btn-disable {
+  background: rgb(75, 75, 75) !important;
+}
+
 ::-webkit-scrollbar {
   // background: linear-gradient(to bottom, $pink, $blue);
   background: $pink;

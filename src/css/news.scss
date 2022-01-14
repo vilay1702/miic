@@ -55,6 +55,12 @@
     }
   }
 }
+.news-loading-button {
+  > button {
+    margin: 0 1rem;
+  }
+}
+
 /* ----Testinomial ---- */
 
 @media screen and (max-width: 850px) {

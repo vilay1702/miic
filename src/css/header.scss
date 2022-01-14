@@ -25,6 +25,7 @@ header::before {
 .logo {
   display: flex;
   align-items: center;
+  z-index: 110;
 }
 
 .logo img {
@@ -112,6 +113,7 @@ nav ul li {
 
 .toggle-nav-list {
   height: 100vh !important;
+  padding-top: 10vh;
 }
 
 // #nav-toggler {
@@ -186,6 +188,7 @@ nav ul li {
 
 @media only screen and (max-width: 900px) {
   nav {
+    padding: 0;
     margin: 2rem 0;
   }
   nav ul {
