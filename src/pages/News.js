@@ -92,7 +92,7 @@ const News = () => {
             repudiandae.
           </p>
 
-          <h3>&#10093;</h3>
+          <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
         </div>
       </section>
       {/*-- Open Ideas--*/}

@@ -84,6 +84,7 @@ const Home = () => {
           </p>
 
           <button className="btn">Apply Now</button>
+          <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
         </div>
       </section>
       {/* About us  */}

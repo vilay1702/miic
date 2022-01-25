@@ -136,7 +136,7 @@ const Programs = () => {
             amet porro rem illum hic, adipisci, nobis dolorem eum?
           </p>
 
-          <h3>&#10093;</h3>
+          <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
         </div>
       </section>
       {/* Events */}
