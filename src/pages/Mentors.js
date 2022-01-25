@@ -2,51 +2,57 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import "../css/mentors.scss";
 import brandImg from "../images/brand.png";
+import avatar from "../images/avatar.png";
 import background from "../images/background.jpeg";
 
 const coreMentors = [
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
 ];
 const facultyMentors = [
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Dr. Sarita Kansal", designation: "Designation" },
+  { img: avatar, name: "Prof. Ram Janm Singh", designation: "Designation" },
+  { img: avatar, name: "Prof Sanjay Jathar", designation: "Designation" },
+  { img: avatar, name: "Dr. Anjali Soni", designation: "Designation" },
+  { img: avatar, name: "Dr. Ravindra Pathak", designation: "Designation" },
+  { img: avatar, name: "Prof Poorva Kakani", designation: "Designation" },
+  { img: avatar, name: "Prof Preeti yadav", designation: "Designation" },
+  { img: avatar, name: "Prof Devendra Singh Bais", designation: "Designation" },
+  { img: avatar, name: "Prof Sagar Pandya", designation: "Designation" },
+  { img: avatar, name: "Prof Neha Toshniwal", designation: "Designation" },
+  { img: avatar, name: "Prof Ajay Sinha", designation: "Designation" },
+  { img: avatar, name: "Dr. Veena Rathore", designation: "Designation" },
+  { img: avatar, name: "Prof Hemant Malviya", designation: "Designation" },
+  { img: avatar, name: "Ms. Asha Rani Pyati", designation: "Designation" },
 ];
 const teamMentors = [
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
 ];
 const externalMentors = [
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
-  { img: brandImg, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
+  { img: avatar, name: "Name", designation: "Designation" },
 ];
 
 const Mentors = () => {
@@ -62,7 +68,7 @@ const Mentors = () => {
             repudiandae.
           </p>
 
-          <h3>&#10093;</h3>
+          <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
         </div>
       </section>
       <div className="mentors-heading">
