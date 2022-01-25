@@ -8,6 +8,7 @@ import person from "../images/person.jfif";
 import ml from "../images/ml.png";
 import notation from "../images/O_notation.png";
 import blog from "../images/ideas_blog.jfif";
+import background from "../images/background.jpeg";
 
 const announcements = [
   {
@@ -81,6 +82,19 @@ const blogs = [
 const News = () => {
   return (
     <>
+      <section className="intro">
+        <img src={background} alt="background" />
+        <div>
+          <h1>News and Media</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
+            repudiandae.
+          </p>
+
+          <h3>&#10093;</h3>
+        </div>
+      </section>
       {/*-- Open Ideas--*/}
       <section className="one">
         <h1>Open Ideas</h1>

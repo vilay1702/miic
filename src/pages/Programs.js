@@ -13,6 +13,7 @@ import isser from "../images/isser.png";
 import circular from "../images/circular_eco.jfif";
 import design from "../images/design_thinking.png";
 import bussiness from "../images/bussiness_model.png";
+import background from "../images/background.jpeg";
 
 const workshops = [
   {
@@ -120,6 +121,24 @@ const webinars = [
 const Programs = () => {
   return (
     <>
+      <section className="intro">
+        <img src={background} alt="background" />
+        <div>
+          <h1>Programs</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
+            repudiandae. Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Debitis provident quidem tempora fugiat ea officia maiores
+            similique praesentium. Mollitia quasi, dolores voluptas tempora,
+            totam, autem rem at illum quibusdam doloribus molestias quo ad
+            doloremque error veritatis soluta. Ex obcaecati doloribus distinctio
+            amet porro rem illum hic, adipisci, nobis dolorem eum?
+          </p>
+
+          <h3>&#10093;</h3>
+        </div>
+      </section>
       {/* Events */}
       <section className="one">
         <h1>Events</h1>

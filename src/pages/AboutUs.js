@@ -6,6 +6,7 @@ import { Grid } from "@material-ui/core";
 import image1 from "../images/image1.jpeg";
 import image2 from "../images/image2.jpeg";
 import brandImg from "../images/brand.png";
+import background from "../images/background.jpeg";
 
 const miicMembers = [
   { img: brandImg, name: "Name", designation: "Designation" },
@@ -22,6 +23,20 @@ const miicMembers = [
 const AboutUs = () => {
   return (
     <main>
+      {/* Intro */}
+      <section className="intro">
+        <img src={background} alt="background" />
+        <div>
+          <h1>About Us</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
+            repudiandae.
+          </p>
+
+          <h3>&#10093;</h3>
+        </div>
+      </section>
       <div className="block">
         <h1>Who we are</h1>
       </div>

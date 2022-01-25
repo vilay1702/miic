@@ -10,6 +10,7 @@ import iic_logo from "../images/iic_logo.png";
 import aicte_logo from "../images/aicte_logo.png";
 import startup1 from "../images/startup1.jpeg";
 import startup2 from "../images/startup2.jpeg";
+import background from "../images/background.jpeg";
 
 const news = [
   {
@@ -71,6 +72,20 @@ const startups = [
 const Home = () => {
   return (
     <main>
+      {/* Intro */}
+      <section className="intro">
+        <img src={background} alt="background" />
+        <div>
+          <h1>Welcome to MIIC</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
+            repudiandae.
+          </p>
+
+          <button className="btn">Apply Now</button>
+        </div>
+      </section>
       {/* About us  */}
       <section className="outer-container">
         <section className="inner-container">

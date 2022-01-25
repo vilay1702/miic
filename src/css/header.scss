@@ -4,22 +4,9 @@ $nav-toggler-width: 40px;
 $nav-toggler-height: 3px;
 
 header {
-  min-height: 100vh;
   width: 100vw;
-}
-
-header::before {
   position: absolute;
-  content: "";
-  background-image: url("../images/background.jpeg");
-  opacity: 0.15;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
+  z-index: 100;
 }
 
 .logo {

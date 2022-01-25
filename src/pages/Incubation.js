@@ -4,10 +4,24 @@ import { Grid } from "@material-ui/core";
 import png1 from "../images/png1.PNG";
 import png2 from "../images/png2.PNG";
 import png3 from "../images/png3.PNG";
+import background from "../images/background.jpeg";
 
 const Incubation = () => {
   return (
     <main>
+      <section className="intro">
+        <img src={background} alt="background" />
+        <div>
+          <h1>Incubation</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
+            repudiandae.
+          </p>
+
+          <h3>&#10093;</h3>
+        </div>
+      </section>
       <div className="block">
         <h1>Facilities</h1>
       </div>
