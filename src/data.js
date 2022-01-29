@@ -31,10 +31,10 @@ const navContents = [
   //   name: "Idea Factory",
   //   link: "/miic/ideafactory",
   // },
-  {
-    name: "Login",
-    link: "/login",
-  },
+  // {
+  //   name: "Login",
+  //   link: "/login",
+  // },
   {
     name: "Apply",
     link: "/apply",
