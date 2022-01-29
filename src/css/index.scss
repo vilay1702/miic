@@ -99,10 +99,13 @@ a {
       font-size: 2rem;
       font-weight: 800;
     }
+    > h2 {
+      margin-top: 0.5rem;
+    }
     > p {
       font-weight: lighter;
       max-width: 700px;
-      margin-top: 1rem;
+      margin-top: 2rem;
       // margin-bottom: 1rem;
       display: flex;
     }
