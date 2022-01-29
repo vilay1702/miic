@@ -43,25 +43,27 @@ const AboutUs = () => {
       <section className="outer-container outer-container-about">
         <section className="inner-container inner-container-about">
           <div className="img-container">
-            <h2>About us</h2>
             <img src={image2} alt="" />
           </div>
           <div className="card-container">
             <p className="highlightPara">
-              Medi-Caps Innovation and Incubation Center (MIIC) enables
-              start-ups for a successful exit from the incubator by assisting in
-              external fund-raising, custom acquisition, etc. Leverage R&D
-              infrastructure to create technology and innovation-based start-up
-              companies.
+              Medicaps innovation and Incubation centre ( MIIC ). aims to create
+              a conductive environment for inhancing entrepreneurship among
+              young aspiring entripsenuss , and with a mission to provide an eco
+              - system that supports and encourage innovation , new ideas of
+              young talents catalyzing the entrepreneurship and innovation
+              through various modes of initiatives amongst classes. seminars and
+              communities
               <br />
+              We also focus on establishing profound entrepreneurs with
+              leadership qualities and capabilities of showcasing global ethical
+              business practices for benefit of socity . we win show the light
+              on developing flexible and innovative programones and procedures
+              that
               <br />
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Similique consequatur doloribus ex, recusandae doloremque quisquam
-              culpa molestiae adipisci hic velit, odio ipsa nostrum. Saepe
-              repellat porro, quis autem distinctio fugit fuga explicabo
-              obcaecati cupiditate cum nobis libero, rem, sed rerum corporis!
-              Reiciendis ratione, hic recusandae perspiciatis inventore id
-              minima aliquam?
+              includes a broad category of students with different backgrounds
+              and prepare them to compete at national and international levels
+              as entrepreneurs.
             </p>
           </div>
         </section>
