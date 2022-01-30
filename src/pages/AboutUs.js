@@ -29,16 +29,17 @@ const AboutUs = () => {
         <div>
           <h1>About Us</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
-            repudiandae.
+            When it comes to innovation, an ounce of execution is worth more
+            than a ton of theory
           </p>
 
           <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
         </div>
       </section>
-      <div className="block">
-        <h1>Who we are</h1>
+
+      {/* Who are we  */}
+      <div className="aboutus-heading">
+        <h1>Who are we</h1>
       </div>
       <section className="outer-container outer-container-about">
         <section className="inner-container inner-container-about">
@@ -69,7 +70,7 @@ const AboutUs = () => {
         </section>
       </section>
 
-      <div className="block">
+      <div className="aboutus-heading ">
         <h1>ABOUT MEDICAPS</h1>
       </div>
       <section className="outer-container outer-container-about">
@@ -151,7 +152,7 @@ const AboutUs = () => {
         </section>
       </section>
 
-      <div className="block">
+      <div className="aboutus-heading ">
         <h1>GALLERY</h1>
       </div>
       <div className="backimage"></div>

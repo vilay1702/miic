@@ -26,14 +26,21 @@
   text-align: right;
 }
 
-.block {
-  height: 8rem;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem 0rem;
+.incubation-block {
+  padding: 4rem 0;
+  font-size: 1rem;
+  text-align: center;
   background: linear-gradient(to right, darken($pink, 10), $blue);
+}
+
+.incubation-outer-section {
+  background-color: white;
+  align-items: center;
+  padding: 3rem 0;
+  justify-content: "center";
+  margin: 0;
+  align-self: center;
+  display: "flex";
 }
 
 .blank {
@@ -42,29 +49,13 @@
   border: none;
 }
 
-.news {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;
-  min-height: 45rem;
-  background-color: white;
-}
-
-.news > div {
-  align-items: center;
+.incubate {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
+  min-width: 300px;
+  flex-wrap: wrap;
   margin: auto;
-  text-align: center;
   background-color: white;
-  width: 50%;
-}
-
-.news > p {
-  margin: auto;
 }
 
 .red,
@@ -94,17 +85,17 @@
 }
 
 .incubationCard {
-  height: 9vw;
-  width: 9vw;
-  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  > img {
+    width: 9vw;
+    height: 9vw;
+  }
 }
 
-.incubationCard > img {
-  height: 9vw;
-  width: 9vw;
-}
-
-ol li {
+.eligibilty-list {
   list-style-type: none;
   background-color: $blue;
   color: $white;
@@ -133,20 +124,14 @@ ol li {
 }
 
 .incubation-txt {
+  max-width: 1000px;
+  font-weight: 500;
+  text-align: justify;
+  margin: auto;
   color: $blue;
-  background-color: $white;
-  align-items: center;
-  text-align: center;
-  width: 60%;
-}
-
-.services-txt {
-  color: $blue;
-  background-color: $white;
-  align-items: center;
-  text-align: center;
-  width: 50%;
+  width: 90vw;
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  list-style-type: none;
 }
 
 .incubation-outer-container {
@@ -177,6 +162,7 @@ ol li {
   text-align: center;
   min-height: 40vh;
   width: 50%;
+  font-weight: 300;
 }
 
 .imageContainer {
@@ -204,6 +190,7 @@ ol li {
 
 .eligibilty-list {
   margin: 12% 0%;
+  text-align: right;
 }
 
 @media screen and (max-width: 780px) {

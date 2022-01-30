@@ -10,6 +10,33 @@ import notation from "../images/O_notation.png";
 import blog from "../images/ideas_blog.jfif";
 import background from "../images/background.jpeg";
 
+const testimonials = [
+  {
+    title: "Cheslla Addam",
+    img: person,
+    desc: " C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms",
+    id: "slide-4",
+  },
+  {
+    title: "Cheslla Addam",
+    img: person,
+    desc: "C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights.[10] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[10] including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes)",
+    id: "slide-3",
+  },
+  {
+    title: "Cheslla Addam",
+    img: person,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nesciunt nobis nemo a laborum neque quisquam distinctio delectus itaque. Quae officiis quisquam quia libero eveniet pariatur nihil eligendi beatae minus provident magnam obcaecati quis asperiores optio, minima, doloribus laborum. Unde possimus repudiandae deserunt architecto mollitia vel earum debitis sunt porro! Voluptatibus laudantium quam quia ad possimus saepe voluptate cumque ipsum maxime maiores, fuga porro, tempore delectus nulla esse non atque beatae laboriosam alias qui mollitia. Omnis minus perspiciatis quas assumenda atque natus nemo ullam. Provident ex repellendus facere dolor illo nostrum, molestiae, itaque repudiandae, et quod quas doloremque quis aspernatur?",
+    id: "slide-2",
+  },
+  {
+    title: "Cheslla Addam",
+    img: person,
+    desc: "C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2020 as ISO/IEC 14882:2020 (informally known as C++20).[12] The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Danish computer scientist Bjarne Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization.[13] Since 2012, C++ has been on a three-year release schedule[14] with C++23 as the next planned standard.",
+    id: "slide-1",
+  },
+];
+
 const announcements = [
   {
     img: recruit,
@@ -87,9 +114,8 @@ const News = () => {
         <div>
           <h1>News and Media</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
-            repudiandae.
+            Innovation is the ability to see changes as an opportunity, not a
+            threat
           </p>
 
           <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
@@ -179,6 +205,67 @@ const News = () => {
         </a>
       </section>
       {/*-- Testimonials --*/}
+      {/*-- Testimonials --*/}
+      <section id="marginN">
+        <h1 id="testimonialN">Testimonials</h1>
+        <div class="containerN">
+          <div class="slider">
+            <input
+              type="radio"
+              class="radio"
+              name="images"
+              id="radio-1"
+              checked
+            />
+            <input
+              type="radio"
+              class="radio"
+              name="images"
+              id="radio-2"
+              checked
+            />
+            <input
+              type="radio"
+              class="radio"
+              name="images"
+              id="radio-3"
+              checked
+            />
+            <input
+              type="radio"
+              class="radio"
+              name="images"
+              id="radio-4"
+              checked
+            />
+            {testimonials.map((testimonial) => {
+              const { title, img, desc, id } = testimonial;
+              return (
+                <div class="slideN" id={id}>
+                  <fieldset>
+                    <fieldset class="img-p">
+                      <img src={img} alt="" />
+                      <p>{title}</p>
+                    </fieldset>
+                    <fieldset class="outerN">
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      <i class="fa fa-quote-right" aria-hidden="true"></i>
+                      <p>{desc} </p>
+                    </fieldset>
+                  </fieldset>
+                </div>
+              );
+            })}
+
+            <div class="dotsN">
+              <label for="radio-4" id="label-1"></label>
+              <label for="radio-3" id="label-2"></label>
+              <label for="radio-2" id="label-3"></label>
+              <label for="radio-1" id="label-4"></label>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/*<script src="https://kit.fontawesome.com/321e7e9d2c.js" crossorigin="anonymous" ></script>  */}
     </>

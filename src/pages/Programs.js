@@ -125,16 +125,7 @@ const Programs = () => {
         <img src={background} alt="background" />
         <div>
           <h1>Programs</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
-            repudiandae. Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Debitis provident quidem tempora fugiat ea officia maiores
-            similique praesentium. Mollitia quasi, dolores voluptas tempora,
-            totam, autem rem at illum quibusdam doloribus molestias quo ad
-            doloremque error veritatis soluta. Ex obcaecati doloribus distinctio
-            amet porro rem illum hic, adipisci, nobis dolorem eum?
-          </p>
+          <p>Its not about the ideas. It's about making ideas happen</p>
 
           <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
         </div>

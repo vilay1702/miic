@@ -15,12 +15,8 @@
 }
 
 .block {
-  height: 18rem;
-  width: 100vw;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  min-height: 100px;
+  padding: 4rem 0;
+  margin: auto;
   background-color: $pink;
   padding: 5rem 1rem;
 }
@@ -182,6 +178,11 @@
 
 .contact {
   color: $blue;
+}
+
+.aboutus-heading {
+  margin: 4rem auto;
+  text-align: center;
 }
 
 @media screen and (max-width: 700px) {

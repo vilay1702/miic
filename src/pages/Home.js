@@ -79,9 +79,8 @@ const Home = () => {
           <h1>Welcome to MIIC</h1>
           <h2>Medi-Caps Innovation and Incubation Center</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
-            repudiandae.
+            Innovation is seeing what everbody has seen and thinking what nobody
+            has thought
           </p>
 
           <button className="btn">Apply Now</button>

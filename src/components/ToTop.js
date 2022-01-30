@@ -1,10 +1,22 @@
-import React from "react";
 import "../css/toTop.scss";
+import React, { useState, useEffect } from "react";
 
 const ToTop = () => {
+  const [isVisible, setIsVisible] = useState(true);
+  useEffect(() => {
+    console.log(window.pageYOffset);
+    if (window.scrollY > 300) {
+      setIsVisible(true);
+    }
+  }, [window.pageYOffset]);
+
   return (
     <abbr title="Back to Top">
-      <a href="#back-to-top" id="to-top-button">
+      <a
+        href="#back-to-top"
+        className={isVisible ? "show-btn" : "hide-btn"}
+        id="to-top-button"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"

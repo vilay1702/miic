@@ -63,9 +63,7 @@ const Mentors = () => {
         <div>
           <h1>Mentors</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            dicta excepturi iusto obcaecati vel eligendi quasi, est esse ullam
-            repudiandae.
+            A mentor is someone who allows you to see the hope inside yourself
           </p>
 
           <h3 onClick={() => window.scrollBy(0, 400)}>&#10093;</h3>
