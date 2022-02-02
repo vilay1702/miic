@@ -3,17 +3,17 @@ import React, { useState, useEffect } from "react";
 
 const ToTop = () => {
   const [isVisible, setIsVisible] = useState(true);
-  useEffect(() => {
-    console.log(window.pageYOffset);
-    if (window.scrollY > 300) {
-      setIsVisible(true);
-    }
-  }, [window.pageYOffset]);
+  // useEffect(() => {
+  //   console.log(window.pageYOffset);
+  //   if (window.scrollY > 300) {
+  //     setIsVisible(true);
+  //   }
+  // }, [window.pageYOffset]);
 
   return (
     <abbr title="Back to Top">
-      <a
-        href="#back-to-top"
+      <button
+        onClick={() => window.scrollTo(0, 0)}
         className={isVisible ? "show-btn" : "hide-btn"}
         id="to-top-button"
       >
@@ -31,7 +31,7 @@ const ToTop = () => {
             d="M5 11l7-7 7 7M5 19l7-7 7 7"
           />
         </svg>
-      </a>
+      </button>
     </abbr>
   );
 };

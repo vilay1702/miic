@@ -42,7 +42,9 @@ const Footer = () => {
         <ul>
           {navContents.map(({ name, link }, index) => (
             <li key={index}>
-              <Link to={link}>{name}</Link>
+              <Link onClick={() => window.scrollTo(0, 0)} to={link}>
+                {name}
+              </Link>
             </li>
           ))}
         </ul>
