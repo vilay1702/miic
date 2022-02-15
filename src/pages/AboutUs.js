@@ -7,6 +7,8 @@ import image1 from "../images/image1.jpeg";
 import image2 from "../images/image2.jpeg";
 import brandImg from "../images/brand.png";
 import background from "../images/background.jpeg";
+import ImageSlider from "../components/Carousel";
+import { sliderData } from "../sliderData";
 
 const miicMembers = [
   { img: brandImg, name: "Name", designation: "Designation" },
@@ -155,7 +157,10 @@ const AboutUs = () => {
       <div className="aboutus-heading ">
         <h1>GALLERY</h1>
       </div>
-      <div className="backimage"></div>
+      {/* <div className="backimage"></div> */}
+      <div>
+        <ImageSlider slides={sliderData} />
+      </div>
 
       <section className="inquiry-outer-container">
         <section className="inquiry-inner-container">

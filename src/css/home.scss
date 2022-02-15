@@ -268,12 +268,23 @@
 
 @media screen and (max-width: 670px) {
   .home-news-card {
-    width: 250px;
+    width: 40vw;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   .home-news-card {
     width: 90vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .inner-container {
+    padding: 0.5rem;
+  }
+  .card-container,
+  .img-container {
+    width: 100%;
+    min-height: 300px;
   }
 }

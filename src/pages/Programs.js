@@ -17,51 +17,92 @@ import background from "../images/background.jpeg";
 
 const workshops = [
   {
-    title: "Be a Womanpreneur",
-    desc: "IIITD Innovation and Incubation Center (IIITD-IC) with the support of Department of Science and Technology, Govt of India is conducting a Training Programme on Entrepreneurship for WOMEN from Science and Tech. aspiring to be an Entrepreneur or having an Early Stage Startup.This training programme aims at providing basic understanding on the following modules to enable the participants to be acquainted with them.",
-    img: entre,
-  },
-  {
-    title: "Startup Compliance",
-    desc: "Entrepreneurs Masterclass Series: Startup Compliance. Join the session on Legal Compliances and Product Building for Startups being organized by IIITD Innovation and Incubation Center for entrepreneurs and startups enthusiasts by Syed Asif Iqbal (Founder, Almspay) Startup Lawyer and Mentor. Conducted on Monday, 23 October 8:00 to 9:00 PM.",
+    title: "Worshop on Web Designing",
+    desc: "To acquaint students with the basics of Website development. Students  learned and understood the tools website development",
     img: startup,
   },
   {
-    title: "Demystifying Finance for Startups",
-    desc: "Entrepreneurs Masterclass Series: Demystifying Finance for Startups. Join this session by Neha Misra (Co-founder and CEO of The Fin Lit Project) to learn about Finance in a simple way.We will break down everything you need to know while building your startup right from Financial Statements to Startup Runway Plans, from Fundraising to Unit Economics and uncover all aspects of financial literacy for startups in a no-jargon simple way so that you can build your startup bigger and better.",
+    title: "Lean Canvas",
+    desc: "To introduce and explain the importance of Lean Canvas ",
     img: startup,
   },
 ];
 
 const events = [
   {
-    title: "Lean Canvas",
-    desc: "Capture your buisness model in a portable one page diagram",
-    img: lean,
+    title: "Innovation and Incubation",
+    desc: "To motivate faculty members towards innovation and understand the purposeof Incubation",
+    img: startup,
   },
   {
-    title: "Essay Writing",
-    desc: "Essays on startups and innovation. World Entreprenurship week",
-    img: essay,
+    title: "Marketing of Innovation",
+    desc: "Encourage students to undertake Startups based on innovation",
+    img: startup,
   },
   {
-    title: "Short video on life of campus entreprenur",
-    desc: "World Entrepreneurship Week",
-    img: short,
+    title: "My Story –Motivational Session by Successful Innovator” ",
+    desc: "Encourage students towards to undertake entrepreneurship and Startups ",
+    img: startup,
   },
   {
-    title: "Poster Making Competition",
-    desc: "World Entrepreneurship Week",
-    img: poster,
+    title: "How to start a service based business with zero investment",
+    desc: "To aware students how to start a service based business without invsetment",
+    img: startup,
   },
   {
-    title: "Stories Unboxed",
-    desc: "World Entreprenurship Week Stories of startup failure and success",
-    img: stories,
+    title: "Principles of Effectuation",
+    desc: "To acquaint students with the importance of effectuation ",
+    img: startup,
   },
   {
-    title: "Cases of success/failure of start-up",
-    desc: "World Entrepreneurship Week",
+    title: "Curret Market Scenario",
+    desc: "To acquaint students with working of different types of market  and create a thought of their product",
+    img: startup,
+  },
+  {
+    title: "Idea Generation-Thought Process",
+    desc: "Encourage students for innovative thinking",
+    img: startup,
+  },
+  {
+    title: "Circular Economy- Novel Approach of Business",
+    desc: "To make students realize the importance of environment in businesses ",
+    img: startup,
+  },
+  {
+    title: "Orientation Session on Innovation",
+    desc: "To aware students and faculties about innovation and startup procedures and facility",
+    img: startup,
+  },
+  {
+    title: "Webinar on `Venture Capital'",
+    desc: "To deliver the imporatnce of Venture Capital, its sources and types",
+    img: startup,
+  },
+  {
+    title:
+      "Webinar on `Essentials of Entrepreneurial University and Academic Entrepreneurship'",
+    desc: "The objective was to educate the faculty members about the imporatance of entrepreneurship in academics",
+    img: startup,
+  },
+  {
+    title: "Expert Talk on `Intellectual property Rights'",
+    desc: "To introduce different types of Intellectual Properties and how they are applicable to startups !",
+    img: startup,
+  },
+  {
+    title: "Product Fit for Market",
+    desc: "To emphasize to design snd develop value driven products and services keeping customer in mind",
+    img: startup,
+  },
+  {
+    title: "A Talk on “From your Ph.D/Masters Thesis to a Startup”",
+    desc: "",
+    img: startup,
+  },
+  {
+    title: "Why Intellectual Property is important in Academia",
+    desc: "",
     img: startup,
   },
 ];
@@ -102,19 +143,34 @@ const seminars = [
 
 const webinars = [
   {
-    title: "Bussiness Models",
-    desc: "Session on Bussiness Model organised along with E-cell about Bussiness Models.Speaker Mr. Kiran Vivekar Assistant Professor at Medi-Caps University.The term business model refers to a company's plan for making a profit. It identifies the products or services the business plans to sell, its identified target market, and any anticipated expenses. Business models are important for both new and established businesses",
-    img: bussiness,
+    title: "National Level Awareness  programme of Ministry of MSME ",
+    desc: "To acquaint students with functioning of MSME and various schemes available to support entrpreneurs",
+    img: startup,
+  },
+  {
+    title: "AARAMBH 2020",
+    desc: "To motivate students towards startups and entrepreneurship ",
+    img: startup,
   },
   {
     title: "Design Thinking",
-    desc: "Session on Design Thinking, speaker Dr. Sarita Kansal at Medi-Caps University. Design thinking is a term used to represent a set of cognitive, strategic and practical processes by which design concepts (proposals for products, buildings, machines, communications, etc.) are developed. Many of the key concepts and aspects of design thinking have been identified through studies, across different design domains, of design cognition and design activity in both laboratory and natural contexts.",
-    img: design,
+    desc: "To introduce the concept of design thinking to students and motivate them to adopt it ! ",
+    img: startup,
   },
   {
-    title: "Circular Economy",
-    desc: `Circular Economy: Novel approach of business, organised on 19 Feburary,2021. Speaker Ritu Kesarwani, Founder of Zeroing Impact Rotterdam, Netherlands. Organized along with E-Cell. A circular economy is "a model of production and consumption, which involves sharing, leasing, reusing, repairing, refurbishing and recycling existing materials and products as long as possible" that aims at tackling global challenges like climate change, biodiversity loss, waste, and pollution.`,
-    img: circular,
+    title: "Business Models",
+    desc: "To introduce the concept of business model  and its importance in any business and its selection ",
+    img: startup,
+  },
+  {
+    title: "National Webinar on Research, Innovation and Ranking",
+    desc: "",
+    img: startup,
+  },
+  {
+    title: "Panel Discussion with Alumni Entrpreneurs’",
+    desc: "To encourage students towards entrepreneurship through Alumni Talk",
+    img: startup,
   },
 ];
 
