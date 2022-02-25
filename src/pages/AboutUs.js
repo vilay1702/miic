@@ -123,7 +123,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="inquiry-outer-container">
+      {/* <section className="inquiry-outer-container">
         <section className="inquiry-inner-container">
           <div className="inquiry-card-container">
             <p>
@@ -152,7 +152,7 @@ const AboutUs = () => {
             </form>
           </div>
         </section>
-      </section>
+      </section> */}
 
       <div className="aboutus-heading ">
         <h1>GALLERY</h1>
